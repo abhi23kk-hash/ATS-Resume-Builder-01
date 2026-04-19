@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | ATS Resume Builder</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<style>
+    .input-group.invalid input,
+    .input-group.invalid select {
+        border-color: #ff3366 !important;
+        box-shadow: 0 0 10px rgba(255, 51, 102, 0.2) !important;
+    }
+    .input-group.valid input,
+    .input-group.valid select {
+        border-color: #00ff88 !important;
+        box-shadow: 0 0 10px rgba(0, 255, 136, 0.2) !important;
+    }
+    .field-error-msg {
+        color: #ff3366;
+        font-size: 0.75rem;
+        margin-top: 4px;
+        margin-left: 5px;
+        display: block;
+        min-height: 1.2em;
+    }
+</style>
+</head>
+<body id="login-page">
+<div class="bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+</div>
+<div class="login-wrapper">
+<div class="login-card glass-panel tilt-card">
+<div class="login-header">
+    <h2>Welcome Back</h2>
+    <p>Access your <span class="gradient-text">Premium Account</span></p>
+</div>
+<div class="form-toggle">
+    <span id="tab-login" class="active">Login</span>
+    <span id="tab-register">Register</span>
+</div>
+
+<!-- LOGIN FORM -->
+<form id="login-form" class="form-container active" autocomplete="off">
+    <div class="input-group">
+        <i class="fa-solid fa-user input-icon"></i>
+        <input type="text" id="username" name="username_<?php echo time(); ?>" placeholder="Username or Email" required autocomplete="off">
+        <div class="glow-border"></div>
+    </div>
+    <div class="input-group">
+        <i class="fa-solid fa-lock input-icon"></i>
+        <input type="password" id="password" name="password_<?php echo time(); ?>" placeholder="Password" required autocomplete="new-password">
+        <div class="glow-border"></div>
+    </div>
+    <div class="error-msg" id="login-error"></div>
+    <div class="form-actions mt-4" style="display:flex; gap:10px;">
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+        <button type="button" id="clear-login" class="btn btn-outline">Clear</button>
+    </div>
+    <div style="text-align:center; margin-top:20px;">
+        <a href="forgot-password.html">Forgot Password?</a>
+    </div>
+</form>
+
+<!-- REGISTER FORM -->
+<form id="register-form" class="form-container" autocomplete="off">
+    <div class="input-group">
+        <input type="text" id="reg-fullname" name="reg_fullname_<?php echo time(); ?>" placeholder="Full Name" required maxlength="25">
+        <div class="glow-border"></div>
+    </div>
+    <div class="field-error-msg" id="err-reg-fullname"></div>
+
+    <div class="input-group">
+        <input type="email" id="reg-email" name="reg_email_<?php echo time(); ?>" placeholder="Email Address" required>
+        <div class="glow-border"></div>
+    </div>
+    <div class="field-error-msg" id="err-reg-email"></div>
+
+    <div class="input-group" style="display: flex; gap: 10px;">
+        <select id="reg-country-code" name="reg_country_<?php echo time(); ?>" style="width: 90px; background: transparent; border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 8px; outline: none; padding: 0 10px;">
+            <option value="+91" style="color: black">+91 (IN)</option>
+            <option value="+1" style="color: black">+1 (US)</option>
+            <option value="+44" style="color: black">+44 (UK)</option>
+            <option value="+61" style="color: black">+61 (AU)</option>
+        </select>
+        <div style="flex: 1; position: relative;" class="input-group-inner">
+            <input type="text" id="reg-phone" name="reg_phone_<?php echo time(); ?>" placeholder="Phone Number" required maxlength="10" style="width: 100%; border-bottom: none;">
+            <div class="glow-border"></div>
+        </div>
+    </div>
+    <div class="field-error-msg" id="err-reg-phone"></div>
+
+    <div class="input-group">
+        <input type="text" id="reg-username" name="reg_username_<?php echo time(); ?>" placeholder="Username" required>
+        <div class="glow-border"></div>
+    </div>
+    <div class="field-error-msg" id="err-reg-username"></div>
+
+    <div class="input-group">
+        <input type="password" id="reg-password" name="reg_password_<?php echo time(); ?>" placeholder="Password" required>
+        <div class="glow-border"></div>
+    </div>
+    <div class="field-error-msg" id="err-reg-password"></div>
+
+    <div class="input-group">
+        <input type="url" id="reg-linkedin" name="reg_linkedin_<?php echo time(); ?>" placeholder="LinkedIn Profile URL (optional)">
+        <div class="glow-border"></div>
+    </div>
+    <div class="field-error-msg" id="err-reg-linkedin"></div>
+
+    <div class="input-group">
+        <input type="url" id="reg-github" name="reg_github_<?php echo time(); ?>" placeholder="GitHub Profile URL (optional)">
+        <div class="glow-border"></div>
+    </div>
+    <div class="field-error-msg" id="err-reg-github"></div>
+
+    <div class="error-msg" id="reg-error"></div>
+    <div class="success-msg" id="reg-success"></div>
+    <div class="form-actions mt-4" style="display:flex; gap:10px;">
+        <button type="submit" id="reg-submit-btn" class="btn btn-primary w-100">Register</button>
+        <button type="button" id="clear-reg" class="btn btn-outline">Clear</button>
+    </div>
+</form>
+</div>
+</div>
+
+<script>
+    // Aggressive clearing function
+    function clearAllInputs() {
+        const allInputs = document.querySelectorAll('input, textarea, select');
+        allInputs.forEach(el => {
+            if (el.tagName === 'SELECT') {
+                el.selectedIndex = 0;
+            } else {
+                el.value = '';
+            }
+        });
+        // Reset forms as well
+        const loginForm = document.getElementById('login-form');
+        const registerForm = document.getElementById('register-form');
+        if (loginForm) loginForm.reset();
+        if (registerForm) registerForm.reset();
+    }
+
+    // Clear immediately (before DOMContentLoaded)
+    if (document.readyState === 'loading') {
+        clearAllInputs();
+    } else {
+        clearAllInputs();
+    }
+
+    // Clear again after DOM is ready (catches autofill that happens later)
+    document.addEventListener('DOMContentLoaded', function() {
+        clearAllInputs();
+        // Extra delay for Chrome's aggressive autofill
+        setTimeout(clearAllInputs, 100);
+        setTimeout(clearAllInputs, 500);
+    });
+
+    // Also on window load
+    window.addEventListener('load', function() {
+        clearAllInputs();
+        setTimeout(clearAllInputs, 200);
+    });
+
+    // If logout parameter is present, clear storage and fields
+    if (window.location.search.includes('logout=true')) {
+        sessionStorage.clear();
+        localStorage.removeItem('currentUser');
+        clearAllInputs();
+        const newUrl = window.location.pathname;
+        window.history.replaceState({}, document.title, newUrl);
+    }
+
+    // Prevent back/forward cache from restoring
+    window.addEventListener('pageshow', function(event) {
+        if (event.persisted) {
+            clearAllInputs();
+            setTimeout(clearAllInputs, 50);
+        }
+    });
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>

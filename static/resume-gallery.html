@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Gallery & Interview Prep | ATS Resume Builder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <style>
+        .gallery-header { margin-bottom: 25px; }
+        .filter-bar { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 30px; }
+        .filter-btn { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 6px 16px; border-radius: 30px; cursor: pointer; transition: all 0.2s; color: #ccc; }
+        .filter-btn.active, .filter-btn:hover { background: #4df; color: #000; border-color: #4df; }
+        .resume-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 25px; margin-bottom: 40px; }
+        .resume-card { background: rgba(20,25,60,0.4); backdrop-filter: blur(20px); border-radius: 16px; border: 1px solid rgba(100,150,255,0.15); overflow: hidden; transition: transform 0.2s; }
+        .resume-card:hover { transform: translateY(-5px); }
+        .resume-card-img { background: rgba(0,0,0,0.3); height: 180px; display: flex; align-items: center; justify-content: center; font-size: 4rem; color: #4df; border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .resume-card-body { padding: 15px; }
+        .resume-card-title { font-size: 1.1rem; font-weight: 600; color: #4df; margin-bottom: 5px; }
+        .resume-card-industry { font-size: 0.8rem; color: #88a; margin-bottom: 10px; }
+        .resume-card-desc { font-size: 0.85rem; color: #ccc; line-height: 1.4; }
+        .section-title { font-size: 1.5rem; color: #4df; margin: 30px 0 20px 0; border-left: 4px solid #4df; padding-left: 15px; }
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin-bottom: 30px; }
+        .video-card { background: rgba(20,25,60,0.4); backdrop-filter: blur(20px); border-radius: 16px; border: 1px solid rgba(100,150,255,0.15); overflow: hidden; }
+        .video-card iframe { width: 100%; height: 180px; border: none; }
+        .video-card-body { padding: 12px; }
+        .video-title { font-size: 0.9rem; font-weight: 500; color: white; }
+        .empty-state { text-align: center; padding: 50px; color: #88a; grid-column: 1/-1; }
+        .btn-primary { background: linear-gradient(135deg,#4df,#a2f); border: none; color: white; padding: 8px 16px; border-radius: 8px; cursor: pointer; display: inline-block; margin-top: 15px; }
+        .tips-section { background: rgba(20,25,60,0.4); border-radius: 16px; padding: 20px; margin-top: 30px; }
+        .tips-section ul { margin-left: 20px; }
+        .tips-section li { margin-bottom: 8px; color: #ccc; }
+    </style>
+</head>
+<body id="resources-page" class="layout-app">
+
+<div class="bg-shapes" style="opacity: 0.6;">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+</div>
+
+<aside class="sidebar premium-glass panel-glow">
+    <div class="sidebar-header">
+        <span class="logo-icon"><i class="fa-solid fa-file-contract neon-text-blue"></i></span>
+        <span class="logo-text font-bold text-white">Resume<span class="neon-text-blue">Pro</span></span>
+    </div>
+    <div class="sidebar-profile">
+        <div class="profile-img-container">
+            <img src="https://via.placeholder.com/150" alt="Profile" id="side-profile-img">
+        </div>
+        <div class="profile-info">
+            <h4 id="side-username">User Name</h4>
+            <p>Premium Member</p>
+        </div>
+    </div>
+    <ul class="sidebar-menu">
+        <li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+        <li><a href="builder.html"><i class="fa-solid fa-file-signature"></i> Create Resume</a></li>
+        <li><a href="my-resumes.html"><i class="fa-solid fa-folder-open"></i> My Resumes</a></li>
+        <li><a href="applications.html"><i class="fa-solid fa-briefcase"></i> Job Applications</a></li>
+        <li><a href="resume-gallery.html" class="active"><i class="fa-regular fa-images"></i> Resume Gallery</a></li>
+        <li><a href="templates.html"><i class="fa-solid fa-layer-group"></i> ATS Templates</a></li>
+        <li><a href="ai-assistant.html"><i class="fa-solid fa-robot"></i> AI Assistant</a></li>
+    </ul>
+</aside>
+
+<main class="main-content">
+    <header class="topbar">
+        <div>
+            <h2 class="neon-text-blue">Resume Gallery & Interview Prep</h2>
+            <p class="text-muted text-sm">Browse resume examples, watch interview tips, and learn how to format your resume.</p>
+        </div>
+    </header>
+
+    <!-- Filter Bar -->
+    <div class="gallery-header">
+        <div class="filter-bar" id="filter-bar">
+            <button class="filter-btn active" data-industry="all">All</button>
+            <button class="filter-btn" data-industry="Software Engineering">Software Engineering</button>
+            <button class="filter-btn" data-industry="Data Science">Data Science</button>
+            <button class="filter-btn" data-industry="Marketing">Marketing</button>
+            <button class="filter-btn" data-industry="Finance">Finance</button>
+            <button class="filter-btn" data-industry="Design">Design</button>
+            <button class="filter-btn" data-industry="Sales">Sales</button>
+        </div>
+    </div>
+
+    <!-- Resume Gallery Grid -->
+    <div id="resume-grid" class="resume-grid">
+        <div class="empty-state">Loading resume examples...</div>
+    </div>
+
+    <!-- YouTube Videos Section -->
+    <div class="section-title"><i class="fa-brands fa-youtube"></i> Interview Preparation Videos</div>
+    <div id="video-grid" class="video-grid"></div>
+
+    <!-- Resume Formatting Tips -->
+    <div class="tips-section">
+        <h3 style="color:#4df;"><i class="fa-solid fa-lightbulb"></i> Resume Formatting Tips</h3>
+        <ul>
+            <li>✔ Use a clean, single‑column layout – ATS scanners prefer simple formatting.</li>
+            <li>✔ Include relevant keywords from the job description (but don't overstuff).</li>
+            <li>✔ Save your resume as PDF – it preserves formatting across devices.</li>
+            <li>✔ Use standard section headings: "Work Experience", "Education", "Skills".</li>
+            <li>✔ Quantify achievements (e.g., "Increased sales by 20%").</li>
+            <li>✔ Avoid tables, images, or graphics – they confuse ATS software.</li>
+            <li>✔ Keep font size between 10-12pt for body text, 14-16pt for headings.</li>
+            <li>✔ Proofread! One typo can cost you an interview.</li>
+        </ul>
+    </div>
+</main>
+
+<script>
+    let allExamples = [];
+    let currentFilter = 'all';
+
+    // Working YouTube videos with referrerpolicy fix
+    const workingVideos = [
+        { id: 'XrY5s4QTBoI', title: 'Tell Me About Yourself – Best Answer (CareerVidz)' },
+        { id: '2PRDmLBcG-s', title: 'STAR Method – Behavioral Interview Questions (The Companies Expert)' },
+        { id: 'yB5Kp-gQNJQ', title: 'Why Should We Hire You? – Best Answer (CareerVidz)' },
+        { id: 'cW4xQpHkLJk', title: 'What Are Your Strengths? – Example Answers (Self Made Millennial)' },
+        { id: 'mMU-94WU4p4', title: 'Negotiating Salary After a Job Offer (Linda Raynier)' },
+        { id: 'jFcB7n5W4A0', title: '5 Common Interview Questions and Answers (Indeed)' }
+    ];
+
+    function loadVideos() {
+        const container = document.getElementById('video-grid');
+        if (!container) return;
+        container.innerHTML = workingVideos.map(v => `
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/${v.id}" 
+                        title="${escapeHtml(v.title)}" 
+                        frameborder="0" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <div class="video-card-body">
+                    <div class="video-title">${escapeHtml(v.title)}</div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    // Load resume examples from backend
+    async function loadResumeExamples() {
+        try {
+            const res = await fetch('/api/resources/resume-examples', { credentials: 'include' });
+            if (!res.ok) throw new Error('Failed to fetch');
+            allExamples = await res.json();
+            renderResumeGallery();
+        } catch (err) {
+            console.error(err);
+            document.getElementById('resume-grid').innerHTML = `
+                <div class="empty-state">
+                    ❌ Could not load resume examples. 
+                    <button id="addSampleBtn" class="btn-primary">📂 Add Sample Resumes</button>
+                </div>`;
+            const btn = document.getElementById('addSampleBtn');
+            if (btn) btn.onclick = addSampleResumes;
+        }
+    }
+
+    function renderResumeGallery() {
+        let filtered = allExamples;
+        if (currentFilter !== 'all') {
+            filtered = allExamples.filter(ex => ex.industry === currentFilter);
+        }
+        const container = document.getElementById('resume-grid');
+        if (filtered.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state">
+                    No resume examples found. 
+                    <button id="addSampleBtn" class="btn-primary">📂 Add Sample Resumes</button>
+                </div>`;
+            const btn = document.getElementById('addSampleBtn');
+            if (btn) btn.onclick = addSampleResumes;
+            return;
+        }
+        container.innerHTML = filtered.map(ex => `
+            <div class="resume-card">
+                <div class="resume-card-img">
+                    <i class="fa-regular fa-file-lines"></i>
+                </div>
+                <div class="resume-card-body">
+                    <div class="resume-card-title">${escapeHtml(ex.title)}</div>
+                    <div class="resume-card-industry"><i class="fa-solid fa-briefcase"></i> ${escapeHtml(ex.industry)}</div>
+                    <div class="resume-card-desc">${escapeHtml(ex.description)}</div>
+                </div>
+            </div>
+        `).join('');
+    }
+
+    // Add sample resumes (calls your backend POST endpoint)
+    async function addSampleResumes() {
+        const samples = [
+            { title: "Senior Software Engineer", industry: "Software Engineering", image_url: "", description: "Experienced software engineer with 8+ years in full-stack development, cloud computing, and team leadership." },
+            { title: "Data Scientist", industry: "Data Science", image_url: "", description: "MS in Data Science, expertise in Python, SQL, machine learning, and data visualization." },
+            { title: "Marketing Manager", industry: "Marketing", image_url: "", description: "Digital marketing strategist with proven ROI growth, SEO, and social media campaign management." },
+            { title: "Financial Analyst", industry: "Finance", image_url: "", description: "CPA candidate with strong Excel, financial modeling, and risk analysis skills." },
+            { title: "UI/UX Designer", industry: "Design", image_url: "", description: "Creative designer with portfolio in web and mobile apps, proficient in Figma and Adobe XD." },
+            { title: "Sales Executive", industry: "Sales", image_url: "", description: "Top performer with 5+ years in B2B sales, exceeding quotas by 30% annually." }
+        ];
+        for (const sample of samples) {
+            try {
+                const res = await fetch('/api/resources/resume-examples', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    credentials: 'include',
+                    body: JSON.stringify(sample)
+                });
+                if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                console.log('Added:', sample.title);
+            } catch(e) { console.error('Failed to add', sample.title, e); }
+        }
+        alert('Sample resumes added! Refreshing page...');
+        location.reload();
+    }
+
+    // Filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            currentFilter = btn.dataset.industry;
+            renderResumeGallery();
+        });
+    });
+
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/[&<>]/g, m => m === '&' ? '&amp;' : m === '<' ? '&lt;' : '&gt;');
+    }
+
+    // Authentication & sidebar user
+    fetch('/api/auth/user', { credentials: 'include' })
+        .then(res => res.json())
+        .then(data => {
+            if (data.isLoggedIn) {
+                document.getElementById('side-username').textContent = data.user.fullName || data.user.username;
+            }
+        })
+        .catch(() => {});
+
+    // Initialize page
+    loadVideos();
+    loadResumeExamples();
+</script>
+</body>
+</html>
