@@ -38,8 +38,8 @@
       "github": "",
       "password": "$2b$12$dgxwY6sBNg.xcRUoMDhY3O9n/WN1LGPW7DeoDJacv.NqWRZyoLiC6",
       "createdAt": "2026-04-05T19:05:11.875069",
-      "reset_token": "5645125056604c72a4ec9fe678d84d8c",
-      "reset_token_expiry": 1776509983.998039
+      "reset_token": "9d56405652d24108908e24145287e545",
+      "reset_token_expiry": 1776610944.442019
     },
     {
       "id": "user_f0b2652ea8a2",
@@ -260,90 +260,70 @@
   "conversations": {
     "user_4dc60b1adecf": [
       {
-        "id": "conv_1776523101.173532_1adecf",
+        "id": "conv_1776695879.743693_1adecf",
         "title": "Hello! I'm your AI Career Coach. How can",
         "messages": [
           {
             "role": "bot",
             "text": "Hello! I'm your AI Career Coach. How can I help you with your resume or career today?",
-            "timestamp": "2026-04-18T14:38:21.156Z"
+            "timestamp": "2026-04-20T14:37:59.629Z"
           },
           {
             "role": "user",
-            "text": "hello",
-            "timestamp": "2026-04-18T14:38:30.477Z"
+            "text": "what is the need of resume and their advantages",
+            "timestamp": "2026-04-20T14:38:19.223Z"
           },
           {
             "role": "bot",
-            "text": "Hello! How can I assist you today with your resume, interview preparation, or career goals? I'm here to help!",
-            "timestamp": "2026-04-18T14:38:33.184Z"
+            "text": "A resume is a crucial tool in your job search for several reasons:\n\n1. **First Impression**: It\u2019s often the first thing employers see, so it helps create a positive first impression.\n\n2. **Showcase Skills**: A resume allows you to highlight your skills, experiences, and accomplishments, showcasing why you\u2019re a great fit for the position.\n\n3. **Organized Information**: It provides a clear, organized format for presenting your professional history, making it easy for recruiters to assess your qualifications quickly.\n\n4. **ATS Optimization**: Many companies use Applicant Tracking Systems (ATS) to screen resumes. A well-structured resume can help ensure you get past this initial screening.\n\n5. **Interview Preparation**: Preparing your resume can help you clarify your career goals and experiences, making you more confident in interviews.\n\n6. **Professional Branding**: A polished resume reflects your professionalism and attention to detail.\n\n7. **Networking Tool**: It can be used when networking, providing a concise overview of your qualifications to share with connections.\n\nOverall, a well-crafted resume is essential for standing out in a competitive job market. Keep it updated and tailor it for each position you apply for! You've got this!",
+            "timestamp": "2026-04-20T14:38:25.248Z"
           },
           {
             "role": "user",
-            "text": "can u say why is resume needed",
-            "timestamp": "2026-04-18T14:38:54.387Z"
+            "text": "what is the advantages of sapota",
+            "timestamp": "2026-04-21T04:08:41.886Z"
           },
           {
             "role": "bot",
-            "text": "Absolutely! A resume is essential for several reasons:\n\n1. **First Impression**: It\u2019s often the first document a potential employer sees, showcasing your qualifications and professionalism.\n\n2. **Highlight Skills**: A resume allows you to highlight your relevant skills, experiences, and achievements that align with the job you're applying for.\n\n3. **Organized Information**: It provides a structured format to present your career history, making it easier for hiring managers to assess your fit for the role.\n\n4. **Job Search Tool**: A well-crafted resume is a key tool in your job search strategy, helping you stand out in a competitive market.\n\n5. **ATS Compatibility**: Many companies use Applicant Tracking Systems (ATS) to screen resumes. A good resume is optimized to pass through these systems.\n\nRemember, a strong resume can open doors to interviews and opportunities! If you need help improving yours, feel free to ask!",
-            "timestamp": "2026-04-18T14:38:58.596Z"
+            "text": "Sapota, also known as chikoo, is a delicious tropical fruit with several advantages:\n\n1. **Nutritional Benefits**: It's rich in vitamins A and C, fiber, and antioxidants, which support overall health and immune function.\n   \n2. **Digestive Health**: The high fiber content aids digestion and helps prevent constipation.\n\n3. **Energy Boost**: Due to its natural sugars, sapota provides a quick source of energy, making it great for a snack.\n\n4. **Weight Management**: Low in calories and high in fiber, it can help you feel full longer, aiding in weight control.\n\n5. **Skin Health**: Antioxidants in sapota can help maintain healthy skin and may reduce signs of aging.\n\n6. **Bone Health**: It contains minerals like calcium and phosphorus, which are beneficial for bone health.\n\nEnjoying sapota as part of a balanced diet can offer these benefits while being a tasty treat! If you have any other questions or need guidance on a topic, feel free to ask!",
+            "timestamp": "2026-04-21T04:08:47.796Z"
+          },
+          {
+            "role": "user",
+            "text": "what is the name of sapota",
+            "timestamp": "2026-04-21T06:57:27.428Z"
+          },
+          {
+            "role": "bot",
+            "text": "For interview prep, practice the STAR method (Situation, Task, Action, Result).\n\n(Note: AI service is in fallback mode. Add your OpenRouter API key for full functionality.)",
+            "timestamp": "2026-04-21T06:57:27.728Z"
+          },
+          {
+            "role": "user",
+            "text": "what is resume",
+            "timestamp": "2026-04-21T08:24:47.249Z"
+          },
+          {
+            "role": "bot",
+            "text": "A resume is a concise document that summarizes your professional experience, skills, education, and accomplishments. It serves as a marketing tool to present yourself to potential employers. A well-crafted resume highlights your qualifications and helps you stand out in the job application process. \n\nIf you\u2019d like tips on how to create or improve your resume, feel free to ask! I'm here to help!",
+            "timestamp": "2026-04-21T08:24:51.726Z"
           }
         ],
-        "created_at": "2026-04-18T20:08:21.173532",
-        "updated_at": "2026-04-18T20:08:58.637378"
+        "created_at": "2026-04-20T20:07:59.743693",
+        "updated_at": "2026-04-21T13:54:51.785122"
       },
       {
-        "id": "conv_1776524113.173656_1adecf",
+        "id": "conv_1776763094.117783_1adecf",
         "title": "Hello! I'm your AI Career Coach. How can",
         "messages": [
           {
             "role": "bot",
             "text": "Hello! I'm your AI Career Coach. How can I help you with your resume or career today?",
-            "timestamp": "2026-04-18T14:55:13.148Z"
-          },
-          {
-            "role": "user",
-            "text": "hello hello mike testing",
-            "timestamp": "2026-04-19T05:54:02.701Z"
-          },
-          {
-            "role": "bot",
-            "text": "Hello! It looks like you\u2019re testing, but if you have any questions about resumes, interviews, or career advice, feel free to ask. I'm here to help!",
-            "timestamp": "2026-04-19T05:54:06.793Z"
-          },
-          {
-            "role": "user",
-            "text": "hi what is called as sapota",
-            "timestamp": "2026-04-19T05:55:10.716Z"
-          },
-          {
-            "role": "bot",
-            "text": "Sapota, also known as chiku or sapodilla, is a sweet, brown fruit with a grainy texture. It is native to Central America but is also grown in tropical regions like India and the Philippines. The fruit is known for its rich flavor and is often enjoyed fresh, in smoothies, or used in desserts. If you have any other questions or need assistance with something else, feel free to ask!",
-            "timestamp": "2026-04-19T05:55:15.708Z"
-          },
-          {
-            "role": "user",
-            "text": "y are u not talking",
-            "timestamp": "2026-04-19T05:55:54.669Z"
-          },
-          {
-            "role": "bot",
-            "text": "I'm here and ready to help! If you have any questions about your resume, preparing for an interview, or anything else related to your job search, just let me know!",
-            "timestamp": "2026-04-19T05:55:57.321Z"
-          },
-          {
-            "role": "user",
-            "text": "what is bone tb",
-            "timestamp": "2026-04-19T05:57:24.327Z"
-          },
-          {
-            "role": "bot",
-            "text": "Bone TB, or osteoarticular tuberculosis, is a form of tuberculosis that affects the bones and joints. It occurs when the bacteria that cause tuberculosis spread to the skeletal system, most commonly affecting the spine (known as Pott's disease), but it can also affect other bones and joints. Symptoms may include pain, swelling, limited movement, and systemic signs like fever or weight loss. Treatment typically involves a long course of antibiotics to eliminate the infection. If you have any specific questions or need more detailed information, feel free to ask!",
-            "timestamp": "2026-04-19T05:57:28.006Z"
+            "timestamp": "2026-04-21T09:18:14.083Z"
           }
         ],
-        "created_at": "2026-04-18T20:25:13.173656",
-        "updated_at": "2026-04-19T11:27:28.148899"
+        "created_at": "2026-04-21T14:48:14.117783",
+        "updated_at": "2026-04-21T14:48:14.100346"
       }
     ]
   },
@@ -359,7 +339,7 @@
       "date_applied": "2026-04-18",
       "notes": "Submitted via LinkedIn. Recruiter: Sarah.",
       "created_at": "2026-04-18T21:16:26.019391",
-      "updated_at": "2026-04-18T21:16:26.019391"
+      "updated_at": "2026-04-21T13:56:29.507691"
     }
   ],
   "resume_examples": [
@@ -410,6 +390,305 @@
       "image_url": "https://via.placeholder.com/300x200?text=Sales+Resume",
       "description": "Top performer with 5+ years in B2B sales, exceeding quotas by 30% annually.",
       "created_at": "2026-04-19T11:34:17.855556"
+    }
+  ],
+  "mock_sessions": [
+    {
+      "id": "2b13f247-7ec8-4555-bd3d-43b6c390cab0",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a challenging project you worked on and how you handled it.",
+        "What technical skills make you a strong fit for this role?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a challenging project you worked on and how you handled it.",
+          "answer": "No speech detected.",
+          "score": 79,
+          "feedback": "Good answer, but could be more specific.",
+          "tips": [
+            "Use concrete examples",
+            "Quantify achievements"
+          ]
+        },
+        {
+          "question": "What technical skills make you a strong fit for this role?",
+          "answer": "No speech detected.",
+          "score": 79,
+          "feedback": "Good answer, but could be more specific.",
+          "tips": [
+            "Use concrete examples",
+            "Quantify achievements"
+          ]
+        }
+      ],
+      "scores": [
+        79,
+        79
+      ],
+      "created_at": "2026-04-20T18:55:25.295118",
+      "status": "completed",
+      "ended_at": "2026-04-20T18:58:44.008019"
+    },
+    {
+      "id": "535058cf-9705-4caa-91b4-d6d789439338",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a challenging project you worked on and how you handled it.",
+        "What technical skills make you a strong fit for this role?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a challenging project you worked on and how you handled it.",
+          "answer": "No speech detected.",
+          "score": 50,
+          "feedback": "Good answer, but could be more specific.",
+          "tips": [
+            "Use concrete examples",
+            "Quantify achievements"
+          ]
+        },
+        {
+          "question": "What technical skills make you a strong fit for this role?",
+          "answer": "No speech detected.",
+          "score": 64,
+          "feedback": "Good answer, but could be more specific.",
+          "tips": [
+            "Use concrete examples",
+            "Quantify achievements"
+          ]
+        }
+      ],
+      "scores": [
+        50,
+        64
+      ],
+      "created_at": "2026-04-20T18:58:50.089444",
+      "status": "completed",
+      "ended_at": "2026-04-20T18:59:29.748636"
+    },
+    {
+      "id": "7336fff7-cad1-4587-82ea-96548462b863",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a challenging project you worked on and how you handled it.",
+        "What technical skills make you a strong fit for this role?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a challenging project you worked on and how you handled it.",
+          "answer": "No speech detected.",
+          "score": 64,
+          "feedback": "Good answer, but could be more specific.",
+          "tips": [
+            "Use concrete examples",
+            "Quantify achievements"
+          ]
+        }
+      ],
+      "scores": [
+        64
+      ],
+      "created_at": "2026-04-20T18:59:33.814065",
+      "status": "in_progress"
+    },
+    {
+      "id": "5b48166e-5fbc-4c35-84a9-268896c6a7b8",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you had to troubleshoot a complex issue in one of your projects. How did you approach it and what was the outcome?",
+        "Can you explain how you would implement a garbage classification system using computer vision? What algorithms and technologies would you consider?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-20T19:20:17.668351",
+      "status": "in_progress"
+    },
+    {
+      "id": "b835aa2c-1844-4cb7-8bf1-5a1ed5998713",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time you faced a significant challenge while working on a project and how you overcame it.",
+        "Can you explain how you would implement a garbage classification system using computer vision in a real-world application?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-20T19:28:15.282145",
+      "status": "in_progress"
+    },
+    {
+      "id": "5fe289cc-488a-453d-a9c3-492839e66770",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a challenging problem in one of your projects and how you resolved it.",
+        "Can you explain how you would approach designing a software solution for a real-time data processing application?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-20T19:28:27.192919",
+      "status": "in_progress"
+    },
+    {
+      "id": "7611d561-4828-4f60-a37f-e38e5d3df6a0",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in one of your projects and how you overcame it.",
+        "Can you explain how you would implement a garbage classification system using computer vision, and what technologies you would use?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-20T19:52:10.977183",
+      "status": "in_progress"
+    },
+    {
+      "id": "f96291d6-563c-46e2-ad63-23760ab56362",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in one of your projects. How did you approach the problem, and what was the outcome?",
+        "Can you explain how you would implement a garbage classification system using computer vision? What frameworks or libraries would you choose and why?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-20T19:59:40.397559",
+      "status": "in_progress"
+    },
+    {
+      "id": "c8c7f897-760b-4fb1-8a21-8ae0e6b6b272",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in one of your projects and how you overcame it.",
+        "Can you explain how you would implement a garbage classification system using computer vision?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a time when you faced a significant challenge in one of your projects and how you overcame it.",
+          "answer": "hello how are u",
+          "score": 26,
+          "feedback": "The answer does not address the question at all. It is a casual greeting rather than a response about a challenge faced in a project.",
+          "tips": [
+            "Provide a specific example of a challenge you faced in a project.",
+            "Describe the actions you took to overcome the challenge and the outcome."
+          ]
+        }
+      ],
+      "scores": [
+        26
+      ],
+      "created_at": "2026-04-20T20:06:45.198384",
+      "status": "in_progress"
+    },
+    {
+      "id": "85d1f81b-a28e-4475-ac77-4c4386f942d0",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you had to troubleshoot a complex issue in one of your projects. What was the problem, and how did you resolve it?",
+        "Can you explain how you would implement a garbage classification system using computer vision? What technologies and algorithms would you consider using?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-20T20:09:05.862961",
+      "status": "in_progress"
+    },
+    {
+      "id": "77835014-d360-4e11-8291-aa947f4e7f3a",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you encountered a significant challenge while working on a software project. How did you address it and what was the outcome?",
+        "Can you explain how you would approach designing a software solution for an AI-based agriculture project? What key considerations would you take into account?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a time when you encountered a significant challenge while working on a software project. How did you address it and what was the outcome?",
+          "answer": "heloo how are u.",
+          "score": 23,
+          "feedback": "The candidate did not provide a relevant answer to the question. The response is informal and does not address any challenges faced in a software project.",
+          "tips": [
+            "Prepare specific examples from past projects that highlight challenges and your problem-solving skills.",
+            "Practice articulating your experiences clearly and professionally."
+          ]
+        }
+      ],
+      "scores": [
+        23
+      ],
+      "created_at": "2026-04-21T09:40:23.210327",
+      "status": "in_progress"
+    },
+    {
+      "id": "d293b4af-3de7-4fcb-a562-2a4b2c29d146",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in a project and how you overcame it.",
+        "Can you explain how you would implement a garbage classification system using computer vision in a software application?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a time when you faced a significant challenge in a project and how you overcame it.",
+          "answer": "helo how are u.",
+          "score": 20,
+          "feedback": "The candidate's response does not address the question and lacks any relevant information about a challenge faced in a project.",
+          "tips": [
+            "Provide a specific example of a challenge you faced in a project.",
+            "Describe the steps you took to overcome the challenge and the outcome."
+          ]
+        }
+      ],
+      "scores": [
+        20
+      ],
+      "created_at": "2026-04-21T12:32:12.418877",
+      "status": "in_progress"
+    },
+    {
+      "id": "1bc32527-2897-4ba3-95d5-8c0884508d62",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a challenging problem in one of your projects and how you approached solving it.",
+        "Can you explain how you would implement a garbage classification system using computer vision, including the technologies and algorithms you would choose?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-21T14:00:05.123804",
+      "status": "in_progress"
+    },
+    {
+      "id": "25c1b6ff-54d4-4a5e-85e4-1f24f641012b",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in one of your projects and how you overcame it.",
+        "Can you explain how you would implement a garbage classification system using computer vision, including the technologies and algorithms you would use?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-21T14:55:37.846467",
+      "status": "in_progress"
+    },
+    {
+      "id": "d7f4a8cf-b7eb-4a84-a600-6fc603ab3f38",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in a project and how you overcame it.",
+        "Can you explain how you would implement a garbage classification system using computer vision in Python?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-21T15:02:27.784340",
+      "status": "in_progress"
     }
   ]
 }

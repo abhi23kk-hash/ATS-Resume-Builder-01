@@ -79,8 +79,8 @@ def forgot_password():
     db = read_db()
     user = next((u for u in db['users'] if u['email'] == email), None)
     if not user:
-        print("   User not found – returning generic message")
-        return jsonify({'message': 'If that email exists, a reset link has been sent.'}), 200
+        print("   User not found – user is not registered")
+        return jsonify({'error': 'This email is not registered. Please sign up first.'}), 200
 
     token = str(uuid.uuid4()).replace('-', '')
     user['reset_token'] = token

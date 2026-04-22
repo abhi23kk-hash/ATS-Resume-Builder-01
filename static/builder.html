@@ -278,10 +278,15 @@
             </div>
         </div>
         <ul class="sidebar-menu">
-            <li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
-            <li><a href="builder.html" class="active"><i class="fa-solid fa-file-signature"></i> Create Resume</a></li>
-            <li><a href="templates.html"><i class="fa-solid fa-layer-group"></i> ATS Templates</a></li>
-        </ul>
+        <li><a href="dashboard.html" class="active"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+        <li><a href="builder.html"><i class="fa-solid fa-file-signature"></i> Create Resume</a></li>
+        <li><a href="my-resumes.html"><i class="fa-solid fa-folder-open"></i> My Resumes</a></li>
+        <li><a href="templates.html"><i class="fa-solid fa-layer-group"></i> ATS Templates</a></li>
+        <li><a href="ai-assistant.html"><i class="fa-solid fa-robot"></i> AI Assistant</a></li>
+        <li><a href="applications.html"><i class="fa-solid fa-briefcase"></i> Job Applications</a></li>
+        <li><a href="resume_gallery.html"><i class="fa-regular fa-images"></i> Resume Gallery</a></li>
+        <li><a href="mock-interview.html"><i class="fa-solid fa-video"></i> Mock Interview</a></li>
+    </ul>
         <div class="sidebar-footer">
             <a href="#" id="logout-btn" class="logout-link"><i class="fa-solid fa-power-off"></i> Logout</a>
         </div>
@@ -1201,15 +1206,15 @@
 
             // ---------- Initialization: either load existing resume or start new ----------
             // ---------- Initialization: either load existing resume or start new ----------
-(async () => {
-    if (isEditing && currentResumeId) {
-        await loadResumeData(currentResumeId);
-    } else {
-        // New resume: add default empty entries
-        addDefaultEntries();
-        updatePreview();
-    }
-})();
+        (async () => {
+            if (isEditing && currentResumeId) {
+                await loadResumeData(currentResumeId);
+            } else {
+                // New resume: add default empty entries
+                addDefaultEntries();
+                updatePreview();
+            }
+        })();
         });
     </script>
 </body>

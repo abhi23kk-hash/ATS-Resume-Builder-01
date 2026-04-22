@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
+
 from routes.auth import auth_bp
 from routes.resume import resume_bp
 from routes.ai import ai_bp
@@ -22,6 +23,9 @@ app.register_blueprint(applications_bp, url_prefix='/api/applications')
 
 from routes.resources import resources_bp
 app.register_blueprint(resources_bp, url_prefix='/api/resources')
+
+from routes.mock_interview import mock_bp
+app.register_blueprint(mock_bp, url_prefix='/api/mock-interview')
 
 # Secret key (must be set)
 app.config['SECRET_KEY'] = 'your-secret-key-change-in-production'
