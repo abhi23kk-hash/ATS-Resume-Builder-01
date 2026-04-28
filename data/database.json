@@ -205,7 +205,7 @@
         ]
       },
       "score": 50,
-      "downloads": 0,
+      "downloads": 1,
       "createdAt": "2026-04-18T16:44:54.337547",
       "updatedAt": "2026-04-18T20:59:21.336235"
     },
@@ -255,75 +255,145 @@
       "downloads": 0,
       "createdAt": "2026-04-18T16:50:44.517567",
       "updatedAt": "2026-04-18T16:50:44.517567"
+    },
+    {
+      "id": "res_2f53927a9a50",
+      "userId": "user_4dc60b1adecf",
+      "title": "Adarsh kumar's Resume",
+      "data": {
+        "name": "Adarsh kumar",
+        "email": "adarah.aiml24@cmrit.ac.in",
+        "phone": "+916498498446",
+        "linkedin": "https://www.linkedin.com/in/abhishek-k-797468339/",
+        "github": "https://github.com/abhi23kk-hash?tab=repositories",
+        "summary": "sapota",
+        "skills": [
+          "java",
+          "python",
+          "c",
+          "c++"
+        ],
+        "experiences": [
+          {
+            "title": "",
+            "company": "",
+            "startDate": "",
+            "endDate": "",
+            "description": "full experience"
+          }
+        ],
+        "educations": [
+          {
+            "degree": "",
+            "institution": "",
+            "startDate": "",
+            "endDate": "",
+            "description": "BE in CMRIT"
+          }
+        ],
+        "projects": [
+          {
+            "name": "",
+            "description": "AI based agriculture\nSmart air purification using humidifier\nGarbage classification using computer vision"
+          }
+        ]
+      },
+      "score": 30,
+      "downloads": 0,
+      "createdAt": "2026-04-26T15:53:42.187694",
+      "updatedAt": "2026-04-26T15:53:42.187694"
     }
   ],
   "conversations": {
     "user_4dc60b1adecf": [
       {
-        "id": "conv_1776695879.743693_1adecf",
-        "title": "Hello! I'm your AI Career Coach. How can",
+        "id": "conv_1777193981.608652_1adecf",
+        "title": "Purpose of a Resume",
         "messages": [
           {
             "role": "bot",
             "text": "Hello! I'm your AI Career Coach. How can I help you with your resume or career today?",
-            "timestamp": "2026-04-20T14:37:59.629Z"
+            "timestamp": "2026-04-26T08:59:41.517Z"
           },
           {
             "role": "user",
-            "text": "what is the need of resume and their advantages",
-            "timestamp": "2026-04-20T14:38:19.223Z"
+            "text": "say what is the purpose of resume in job?",
+            "timestamp": "2026-04-26T09:00:13.588Z"
           },
           {
             "role": "bot",
-            "text": "A resume is a crucial tool in your job search for several reasons:\n\n1. **First Impression**: It\u2019s often the first thing employers see, so it helps create a positive first impression.\n\n2. **Showcase Skills**: A resume allows you to highlight your skills, experiences, and accomplishments, showcasing why you\u2019re a great fit for the position.\n\n3. **Organized Information**: It provides a clear, organized format for presenting your professional history, making it easy for recruiters to assess your qualifications quickly.\n\n4. **ATS Optimization**: Many companies use Applicant Tracking Systems (ATS) to screen resumes. A well-structured resume can help ensure you get past this initial screening.\n\n5. **Interview Preparation**: Preparing your resume can help you clarify your career goals and experiences, making you more confident in interviews.\n\n6. **Professional Branding**: A polished resume reflects your professionalism and attention to detail.\n\n7. **Networking Tool**: It can be used when networking, providing a concise overview of your qualifications to share with connections.\n\nOverall, a well-crafted resume is essential for standing out in a competitive job market. Keep it updated and tailor it for each position you apply for! You've got this!",
-            "timestamp": "2026-04-20T14:38:25.248Z"
+            "text": "The purpose of a resume is to showcase your skills, experience, and qualifications to potential employers. It serves as a marketing tool that highlights your strengths and achievements, helping you stand out from other candidates. A well-crafted resume can open doors to interviews and opportunities by effectively communicating your value and fit for the job. Remember, it's your chance to make a great first impression\u2014so make it count! If you need help refining your resume, I'm here for you!",
+            "timestamp": "2026-04-26T09:00:16.250Z"
           },
           {
             "role": "user",
-            "text": "what is the advantages of sapota",
-            "timestamp": "2026-04-21T04:08:41.886Z"
+            "text": "ok how can we proceed with that?",
+            "timestamp": "2026-04-26T09:00:35.057Z"
           },
           {
             "role": "bot",
-            "text": "Sapota, also known as chikoo, is a delicious tropical fruit with several advantages:\n\n1. **Nutritional Benefits**: It's rich in vitamins A and C, fiber, and antioxidants, which support overall health and immune function.\n   \n2. **Digestive Health**: The high fiber content aids digestion and helps prevent constipation.\n\n3. **Energy Boost**: Due to its natural sugars, sapota provides a quick source of energy, making it great for a snack.\n\n4. **Weight Management**: Low in calories and high in fiber, it can help you feel full longer, aiding in weight control.\n\n5. **Skin Health**: Antioxidants in sapota can help maintain healthy skin and may reduce signs of aging.\n\n6. **Bone Health**: It contains minerals like calcium and phosphorus, which are beneficial for bone health.\n\nEnjoying sapota as part of a balanced diet can offer these benefits while being a tasty treat! If you have any other questions or need guidance on a topic, feel free to ask!",
-            "timestamp": "2026-04-21T04:08:47.796Z"
-          },
-          {
-            "role": "user",
-            "text": "what is the name of sapota",
-            "timestamp": "2026-04-21T06:57:27.428Z"
-          },
-          {
-            "role": "bot",
-            "text": "For interview prep, practice the STAR method (Situation, Task, Action, Result).\n\n(Note: AI service is in fallback mode. Add your OpenRouter API key for full functionality.)",
-            "timestamp": "2026-04-21T06:57:27.728Z"
-          },
-          {
-            "role": "user",
-            "text": "what is resume",
-            "timestamp": "2026-04-21T08:24:47.249Z"
-          },
-          {
-            "role": "bot",
-            "text": "A resume is a concise document that summarizes your professional experience, skills, education, and accomplishments. It serves as a marketing tool to present yourself to potential employers. A well-crafted resume highlights your qualifications and helps you stand out in the job application process. \n\nIf you\u2019d like tips on how to create or improve your resume, feel free to ask! I'm here to help!",
-            "timestamp": "2026-04-21T08:24:51.726Z"
+            "text": "Great! To get started, please share your current resume or any specific sections you're looking to improve. You can also tell me about the job you're targeting, and we can work on tailoring your resume and preparing for interviews. Let\u2019s make your application stand out!",
+            "timestamp": "2026-04-26T09:00:37.263Z"
           }
         ],
-        "created_at": "2026-04-20T20:07:59.743693",
-        "updated_at": "2026-04-21T13:54:51.785122"
+        "created_at": "2026-04-26T14:29:41.608652",
+        "updated_at": "2026-04-26T14:30:37.295140"
       },
       {
-        "id": "conv_1776763094.117783_1adecf",
-        "title": "Hello! I'm your AI Career Coach. How can",
+        "id": "conv_1777198374.103255_1adecf",
+        "title": "Benefits of Sapota Fruit",
         "messages": [
           {
             "role": "bot",
             "text": "Hello! I'm your AI Career Coach. How can I help you with your resume or career today?",
-            "timestamp": "2026-04-21T09:18:14.083Z"
+            "timestamp": "2026-04-26T10:12:54.088Z"
+          },
+          {
+            "role": "user",
+            "text": "what are the advantages of sapota",
+            "timestamp": "2026-04-26T10:13:07.466Z"
+          },
+          {
+            "role": "bot",
+            "text": "Sapota, also known as chiku, offers several advantages:\n\n1. **Nutritional Value**: It is rich in vitamins A and C, dietary fiber, and antioxidants, promoting overall health.\n\n2. **Digestive Health**: The high fiber content aids digestion and helps prevent constipation.\n\n3. **Energy Boost**: Sapota contains natural sugars, providing a quick energy boost, making it great for workouts.\n\n4. **Skin Health**: Antioxidants in sapota can improve skin health and help combat signs of aging.\n\n5. **Weight Management**: Low in calories and high in fiber, it can help you feel full and satisfied.\n\n6. **Heart Health**: The fruit may help in lowering cholesterol levels and maintaining heart health due to its fiber and antioxidant properties.\n\nIncorporating sapota into your diet can be a delicious way to enjoy these health benefits! If you have more questions or need tips on how to include it in your meals, feel free to ask!",
+            "timestamp": "2026-04-26T10:13:12.433Z"
           }
         ],
-        "created_at": "2026-04-21T14:48:14.117783",
-        "updated_at": "2026-04-21T14:48:14.100346"
+        "created_at": "2026-04-26T15:42:54.103255",
+        "updated_at": "2026-04-26T15:43:13.914558"
+      },
+      {
+        "id": "conv_1777257184.253959_1adecf",
+        "title": "Career Coaching Introduction",
+        "messages": [
+          {
+            "role": "bot",
+            "text": "Hello! I'm your AI Career Coach. How can I help you with your resume or career today?",
+            "timestamp": "2026-04-27T02:33:04.060Z"
+          },
+          {
+            "role": "user",
+            "text": "what is my name",
+            "timestamp": "2026-04-27T02:33:19.181Z"
+          },
+          {
+            "role": "bot",
+            "text": "I don\u2019t have access to personal information, including your name. However, I'm here to help you with your resume, interview prep, or anything else you might need! How can I assist you today?",
+            "timestamp": "2026-04-27T02:33:23.779Z"
+          },
+          {
+            "role": "user",
+            "text": "what was the answer for the first mock interview question",
+            "timestamp": "2026-04-27T02:33:50.902Z"
+          },
+          {
+            "role": "bot",
+            "text": "I\u2019d be happy to help you prepare for mock interview questions! One common first question is, \u201cTell me about yourself.\u201d \n\nA strong answer typically includes:\n\n1. **Brief Introduction**: Start with your name and a quick overview of your current role or situation.\n2. **Professional Background**: Highlight relevant experiences, skills, or accomplishments.\n3. **Your Goals**: Share what you\u2019re looking for in your next role and how it aligns with the position you're applying for.\n\nExample: \u201cMy name is [Your Name], and I\u2019m currently a [Your Job Title] at [Your Company] where I [briefly describe key responsibilities or achievements]. With [X] years of experience in [Your Field/Industry], I have developed strong skills in [specific skills]. I\u2019m excited about the opportunity to [mention what you hope to achieve in the new role] because I believe it aligns perfectly with my career goals.\u201d\n\nFeel free to share a specific question you\u2019re preparing for, and I can help you craft a tailored response!",
+            "timestamp": "2026-04-27T02:33:58.425Z"
+          }
+        ],
+        "created_at": "2026-04-27T08:03:04.253959",
+        "updated_at": "2026-04-27T08:03:58.594383"
       }
     ]
   },
@@ -688,6 +758,912 @@
       "answers": [],
       "scores": [],
       "created_at": "2026-04-21T15:02:27.784340",
+      "status": "in_progress"
+    },
+    {
+      "id": "421b5d34-aec4-47cf-a825-e7f7b8308522",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you encountered a significant challenge in one of your projects. How did you handle it and what was the outcome?",
+        "Can you explain how you would implement a machine learning model to classify images for garbage classification? What steps would you take and what technologies would you use?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-23T09:42:53.059433",
+      "status": "in_progress"
+    },
+    {
+      "id": "976aed64-624c-4467-83f5-182f7d034240",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you had to learn a new programming language or technology quickly to complete a project. How did you approach it?",
+        "Can you explain how you would implement a garbage classification system using computer vision? What algorithms or libraries would you consider using?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a time when you had to learn a new programming language or technology quickly to complete a project. How did you approach it?",
+          "answer": "hello how are u",
+          "score": 26,
+          "feedback": "The candidate's answer does not address the question at all and lacks relevant content. It appears to be a casual greeting rather than a response about learning a new programming language or technology.",
+          "tips": [
+            "Provide a specific example of a project where you had to learn a new technology.",
+            "Describe the steps you took to learn the technology quickly and how it contributed to the project's success."
+          ]
+        },
+        {
+          "question": "Tell me about a time when you had to learn a new programming language or technology quickly to complete a project. How did you approach it?",
+          "answer": "hello how are u",
+          "score": 26,
+          "feedback": "The answer does not address the question and lacks relevant content. It is important to provide a specific example that demonstrates the ability to learn and adapt quickly to new technologies.",
+          "tips": [
+            "Provide a specific example of a project where you learned a new technology.",
+            "Explain the steps you took to learn the language or technology, including resources used and any challenges faced."
+          ]
+        }
+      ],
+      "scores": [
+        26,
+        26
+      ],
+      "created_at": "2026-04-23T09:57:38.667964",
+      "status": "in_progress"
+    },
+    {
+      "id": "37081cd1-9de0-4eca-b5e7-cf2ca95fc2a4",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge in one of your projects. How did you approach the problem, and what was the outcome?",
+        "Can you explain how you would implement a garbage classification system using computer vision? What algorithms and tools would you use, and why?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-23T20:34:39.023375",
+      "status": "in_progress"
+    },
+    {
+      "id": "8172f030-c8f7-4354-af5c-11765a5a02ba",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Describe a situation where you faced a significant challenge while working on your AI-based agriculture project and how you addressed it.",
+        "Can you explain how you would implement a garbage classification system using computer vision in Python, including the key libraries and algorithms you would utilize?"
+      ],
+      "answers": [
+        {
+          "question": "Describe a situation where you faced a significant challenge while working on your AI-based agriculture project and how you addressed it.",
+          "answer": "Oh, there's nothing, there's nothing.",
+          "score": 22,
+          "feedback": "The candidate's response lacks detail and does not provide any insight into their problem-solving abilities or experiences. A more substantial answer would include a specific challenge faced during the project and the steps taken to overcome it.",
+          "tips": [
+            "Provide a specific example of a challenge you encountered during the project.",
+            "Detail the steps you took to address the challenge and the outcome of those actions."
+          ]
+        },
+        {
+          "question": "Can you explain how you would implement a garbage classification system using computer vision in Python, including the key libraries and algorithms you would utilize?",
+          "answer": "Support us, support us, support us. Banana banana banana banana.",
+          "score": 20,
+          "feedback": "The candidate's response is completely off-topic and does not address the question regarding the implementation of a garbage classification system using computer vision. There is no demonstration of relevant knowledge or understanding of the subject matter.",
+          "tips": [
+            "Focus on directly answering the question with relevant technical details.",
+            "Mention specific libraries such as OpenCV or TensorFlow and algorithms like convolutional neural networks (CNNs) that are applicable to the project."
+          ]
+        }
+      ],
+      "scores": [
+        22,
+        20
+      ],
+      "created_at": "2026-04-23T20:45:26.137736",
+      "status": "in_progress"
+    },
+    {
+      "id": "ffa07927-01a3-4095-a706-ab24a2b2c40f",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Describe a situation where you faced challenges while implementing AI solutions in your agriculture project. How did you overcome these challenges?",
+        "Given your experience with computer vision for garbage classification, can you explain the algorithms or techniques you used and how you evaluated their effectiveness?"
+      ],
+      "answers": [
+        {
+          "question": "Describe a situation where you faced challenges while implementing AI solutions in your agriculture project. How did you overcome these challenges?",
+          "answer": "And support is also known as she who always helpful as there's more healthy and it contains protein, vitamins and other things. Thank you.",
+          "score": 30,
+          "feedback": "The candidate's answer does not address the question about challenges faced while implementing AI solutions in their agriculture project. Instead, it provides irrelevant information about support and health benefits, which does not demonstrate the candidate's problem-solving skills or experience.",
+          "tips": [
+            "Focus on specific challenges encountered during the project and describe them clearly.",
+            "Explain the steps taken to overcome those challenges and the outcomes of those actions."
+          ]
+        }
+      ],
+      "scores": [
+        30
+      ],
+      "created_at": "2026-04-23T20:57:01.116550",
+      "status": "in_progress"
+    },
+    {
+      "id": "b97da300-80a9-4ca7-aa04-05f45ef371a8",
+      "user_id": "user_4dc60b1adecf",
+      "job_title": "Senior Software Engineer",
+      "questions": [
+        "Tell me about a time when you faced a significant challenge while working on your AI-based agriculture project. How did you overcome it, and what was the outcome?",
+        "Can you explain how you implemented garbage classification using computer vision in your project? What algorithms or libraries did you use, and what were the key considerations in designing the system?"
+      ],
+      "answers": [
+        {
+          "question": "Tell me about a time when you faced a significant challenge while working on your AI-based agriculture project. How did you overcome it, and what was the outcome?",
+          "answer": "Support us, support us, support us, support us very good for health. But yes more energy and efficiency.",
+          "score": 26,
+          "feedback": "The candidate's answer is vague and does not address the question about a specific challenge faced during the AI-based agriculture project. It lacks detail and clarity, making it difficult to assess their problem-solving skills and the outcome of their actions.",
+          "tips": [
+            "Provide a specific example of a challenge faced in the project.",
+            "Explain the steps taken to overcome the challenge and the results achieved."
+          ]
+        }
+      ],
+      "scores": [
+        26
+      ],
+      "created_at": "2026-04-24T15:58:23.992231",
+      "status": "in_progress"
+    },
+    {
+      "id": "59d3b77e-5c8d-44dc-b0f0-7283ac8a2264",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you explain the approach you used in your AI-based agriculture solution for crop health monitoring and the specific techniques you implemented to achieve the results?",
+        "What challenges did you encounter while developing the garbage classification system using computer vision, and how did you overcome them to achieve 85% accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "Can you explain the approach you used in your AI-based agriculture solution for crop health monitoring and the specific techniques you implemented to achieve the results?",
+          "answer": "Hello how are you? I am good. Thank you. I love support. That's very good for health and very useful. Thank you.",
+          "score": 29,
+          "feedback": "The response does not address the question about the AI-based agriculture solution or the techniques used. It instead focuses on a generic greeting and unrelated comments, demonstrating a lack of preparation or understanding of the topic.",
+          "tips": [
+            "Prepare specific details about your projects, including methodologies and technologies used.",
+            "Practice answering technical questions clearly and concisely to demonstrate your expertise."
+          ]
+        }
+      ],
+      "scores": [
+        29
+      ],
+      "created_at": "2026-04-24T17:31:41.326046",
+      "status": "in_progress"
+    },
+    {
+      "id": "43370abb-018d-4389-af3c-515a31f7a94b",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "How did you implement humidity control in your smart air purification prototype, and what sensors did you utilize to adjust air quality based on environmental conditions?",
+        "Can you discuss the architecture of the convolutional neural network you designed for the garbage classification project, and how you optimized it to achieve 85% accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "How did you implement humidity control in your smart air purification prototype, and what sensors did you utilize to adjust air quality based on environmental conditions?",
+          "answer": "Hello good morning, I am also going to a coffee state. I love mango and it's very tasty. It's good for the health also. That's it.",
+          "score": 29,
+          "feedback": "The answer provided is completely unrelated to the question asked. It does not address the implementation of humidity control or the sensors used in the smart air purification prototype, which indicates a lack of preparation or understanding of the topic.",
+          "tips": [
+            "Focus on answering the question directly and provide specific details about your project.",
+            "Practice explaining technical aspects of your work clearly and concisely to demonstrate your knowledge."
+          ]
+        }
+      ],
+      "scores": [
+        29
+      ],
+      "created_at": "2026-04-24T17:33:15.963812",
+      "status": "in_progress"
+    },
+    {
+      "id": "459410b1-7e56-419e-9c95-bca9ef2b8b8d",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "What specific algorithms or methods did you utilize in your AI-based agriculture monitoring project to achieve 90% accuracy in detecting plant diseases from leaf images?",
+        "Can you describe the process you followed to integrate sensor inputs in your smart air purification prototype and how that influenced the system's performance?"
+      ],
+      "answers": [
+        {
+          "question": "What specific algorithms or methods did you utilize in your AI-based agriculture monitoring project to achieve 90% accuracy in detecting plant diseases from leaf images?",
+          "answer": "Hello, hello, good morning, how are you? I am fine.",
+          "score": 20,
+          "feedback": "The response does not address the question asked and fails to provide any relevant information about the algorithms or methods used in the project. It is important to directly answer the question with specific technical details to demonstrate knowledge and expertise.",
+          "tips": [
+            "Prepare to discuss specific algorithms or techniques used in your projects, such as convolutional neural networks (CNNs) or transfer learning.",
+            "Practice concise and relevant responses to technical questions to convey your understanding effectively."
+          ]
+        }
+      ],
+      "scores": [
+        20
+      ],
+      "created_at": "2026-04-24T17:43:39.831921",
+      "status": "in_progress"
+    },
+    {
+      "id": "09f943c0-f233-47d0-b360-a4220232aec7",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "What challenges did you face while developing the garbage classification system, and how did you address them to achieve 85% accuracy?",
+        "Can you explain the role of IoT and the specific sensors used in your smart air purification prototype, and how they contributed to the system's overall effectiveness?"
+      ],
+      "answers": [
+        {
+          "question": "What challenges did you face while developing the garbage classification system, and how did you address them to achieve 85% accuracy?",
+          "answer": "Hello, how are you? Hello, how are you? Hello, support us, owners. Support us and healthy. Thank you very much.",
+          "score": 30,
+          "feedback": "The answer does not address the question at all. It lacks relevant content about the challenges faced during the project and how they were overcome, which is critical for evaluating problem-solving skills.",
+          "tips": [
+            "Focus on providing specific challenges encountered during the project.",
+            "Explain the strategies or methods used to overcome those challenges to demonstrate problem-solving abilities."
+          ]
+        }
+      ],
+      "scores": [
+        30
+      ],
+      "created_at": "2026-04-24T18:09:32.235411",
+      "status": "in_progress"
+    },
+    {
+      "id": "0cfb3bc9-6d0d-4d80-9c6f-eaadfcc6bf9b",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you explain the approach you used to achieve 90% accuracy in detecting plant diseases from leaf images in your AI-based Agriculture Monitoring project?",
+        "What challenges did you face while developing the garbage classification system using computer vision, and how did you ensure the 85% accuracy in classifying waste into 10 categories?"
+      ],
+      "answers": [
+        {
+          "question": "Can you explain the approach you used to achieve 90% accuracy in detecting plant diseases from leaf images in your AI-based Agriculture Monitoring project?",
+          "answer": "Hello, I am Abhishek, I love support, I am very good for health and it's very efficient for poor person. Thank you.",
+          "score": 30,
+          "feedback": "The response is not relevant to the question asked and lacks any technical detail about the project. It fails to demonstrate knowledge or expertise in the subject matter.",
+          "tips": [
+            "Provide a clear explanation of the methods and algorithms used to achieve the accuracy.",
+            "Discuss specific techniques, such as data preprocessing, model selection, and evaluation metrics."
+          ]
+        }
+      ],
+      "scores": [
+        30
+      ],
+      "created_at": "2026-04-24T18:24:07.147511",
+      "status": "in_progress"
+    },
+    {
+      "id": "e0a40773-11fa-4a78-b9b7-b6418d26a5fe",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "How did you incorporate sensor inputs into your smart air purification prototype to adjust air quality effectively?",
+        "Can you discuss the specific techniques you utilized in your garbage classification project using CNN and OpenCV to achieve the 85% accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "How did you incorporate sensor inputs into your smart air purification prototype to adjust air quality effectively?",
+          "answer": "Hello, hello, how are you? I like mango, it's very tasty, that's it.",
+          "score": 19,
+          "feedback": "The response is completely unrelated to the question asked. It fails to address the incorporation of sensor inputs into the smart air purification prototype, demonstrating a lack of understanding or preparation.",
+          "tips": [
+            "Focus on answering the question directly and provide relevant details about your project.",
+            "Use technical terminology related to your work to demonstrate your knowledge and expertise."
+          ]
+        }
+      ],
+      "scores": [
+        19
+      ],
+      "created_at": "2026-04-24T18:32:33.559117",
+      "status": "in_progress"
+    },
+    {
+      "id": "765909f1-bcd0-4a87-84e6-8546e672fd7f",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you explain the approach you used to achieve 90% accuracy in detecting plant diseases from leaf images in your AI-based Agriculture Monitoring project?",
+        "What challenges did you face while developing the garbage classification system using computer vision, and how did you address them to achieve 85% accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "Can you explain the approach you used to achieve 90% accuracy in detecting plant diseases from leaf images in your AI-based Agriculture Monitoring project?",
+          "answer": "I love mango very much, it's very tasty. And it gives proteins, vitamins and the scent.",
+          "score": 26,
+          "feedback": "The response is completely off-topic and does not address the question about the approach used in the project. It fails to demonstrate any technical knowledge or understanding of the project.",
+          "tips": [
+            "Focus on the technical aspects of the project, such as the algorithms used and the data processing techniques.",
+            "Provide specific details about the methodology, including any frameworks or tools utilized in achieving the accuracy."
+          ]
+        }
+      ],
+      "scores": [
+        26
+      ],
+      "created_at": "2026-04-24T18:44:20.796016",
+      "status": "in_progress"
+    },
+    {
+      "id": "ef1cd9cc-5713-4b4b-b556-d2eba8ffe642",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you elaborate on the techniques and algorithms you employed to achieve 90% accuracy in your AI-based agriculture monitoring project, particularly in detecting plant diseases?",
+        "What challenges did you encounter while developing the garbage classification system using computer vision, and how did you address them to achieve an 85% accuracy?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-24T18:59:34.435017",
+      "status": "in_progress"
+    },
+    {
+      "id": "ad550048-c348-4d2c-9043-35989b5f0173",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you discuss the specific sensor technologies and algorithms you implemented in your smart air purification project to effectively control humidity levels?",
+        "What were the key features of the CNN architecture you utilized in your garbage classification project, and how did they contribute to achieving 85% accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "Can you discuss the specific sensor technologies and algorithms you implemented in your smart air purification project to effectively control humidity levels?",
+          "answer": "I love mango that's it.",
+          "score": 4,
+          "feedback": "The answer provided is completely unrelated to the question asked. It does not demonstrate any knowledge or understanding of sensor technologies or algorithms, which are critical to the smart air purification project mentioned in the resume.",
+          "tips": [
+            "Ensure your answers directly address the questions being asked.",
+            "Prepare to discuss specific technical details and methodologies related to your projects."
+          ]
+        }
+      ],
+      "scores": [
+        4
+      ],
+      "created_at": "2026-04-24T19:18:29.285680",
+      "status": "in_progress"
+    },
+    {
+      "id": "78f37120-db56-45e5-9d3f-6f4d7ea6106b",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "How did you integrate IoT technologies into your smart air purification prototype, and what role did Arduino play in this project?",
+        "Can you explain the process you followed to classify 10 categories of waste in your garbage classification project, particularly how you handled data preprocessing with OpenCV?"
+      ],
+      "answers": [
+        {
+          "question": "How did you integrate IoT technologies into your smart air purification prototype, and what role did Arduino play in this project?",
+          "answer": "Hello hello",
+          "score": 14,
+          "feedback": "The answer lacks substance and does not address the question at all. Simply saying 'Hello hello' does not provide any information about the integration of IoT technologies or the role of Arduino in the project.",
+          "tips": [
+            "Provide a clear explanation of how IoT technologies were integrated into the smart air purification prototype.",
+            "Describe the specific functions of Arduino in the project, such as sensor data processing or controlling the purification system."
+          ]
+        }
+      ],
+      "scores": [
+        14
+      ],
+      "created_at": "2026-04-24T19:20:40.120439",
+      "status": "in_progress"
+    },
+    {
+      "id": "ab97ced2-e1b9-48c8-9be6-f18b7627d4cb",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "What techniques did you employ in your AI-based agriculture solution to monitor crop health, and how did you validate the model's effectiveness in detecting plant diseases?",
+        "Can you describe the challenges you faced while designing the automated system for your smart air purification project, particularly in integrating Arduino with various sensor inputs?"
+      ],
+      "answers": [
+        {
+          "question": "What techniques did you employ in your AI-based agriculture solution to monitor crop health, and how did you validate the model's effectiveness in detecting plant diseases?",
+          "answer": "I used a laptop model and it was very difficult to do also but I did some",
+          "score": 32,
+          "feedback": "The answer lacks clarity and detail about the techniques used in the AI-based agriculture solution. Additionally, it does not address how the model's effectiveness was validated, which is crucial for demonstrating understanding and competence in the field.",
+          "tips": [
+            "Provide specific techniques or algorithms used in the model, such as convolutional neural networks (CNNs) or transfer learning.",
+            "Explain the validation process, such as using a test dataset or cross-validation to assess the model's performance."
+          ]
+        }
+      ],
+      "scores": [
+        32
+      ],
+      "created_at": "2026-04-24T19:25:01.884258",
+      "status": "in_progress"
+    },
+    {
+      "id": "60dd90c7-814f-4f89-937e-054c501a8a57",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you detail the methodologies you utilized in your AI-based agriculture solution to achieve 90% accuracy in detecting plant diseases from leaf images?",
+        "What specific computer vision techniques did you implement in your garbage classification project to achieve an 85% accuracy rate, and how did you optimize the performance of your CNN model?"
+      ],
+      "answers": [
+        {
+          "question": "Can you detail the methodologies you utilized in your AI-based agriculture solution to achieve 90% accuracy in detecting plant diseases from leaf images?",
+          "answer": "I was using some predefined models which was very helpful for AI based agriculture which would help me to answer the questions, attempting the plant disease at home. So it was very useful, but it was very difficult to manage the things which were there. Thank you.",
+          "score": 38,
+          "feedback": "The answer lacks specificity and clarity regarding the methodologies employed in the project. While mentioning predefined models is a start, it does not provide insight into the actual techniques or processes used to achieve the reported accuracy.",
+          "tips": [
+            "Provide specific details about the models and algorithms used, such as the type of neural networks or techniques applied.",
+            "Discuss any data preprocessing steps, training processes, or evaluation metrics that contributed to achieving the accuracy."
+          ]
+        }
+      ],
+      "scores": [
+        38
+      ],
+      "created_at": "2026-04-24T19:40:21.748591",
+      "status": "in_progress"
+    },
+    {
+      "id": "134d56cc-da5d-4b61-aee1-b502a4c18b40",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "Abhishek K\nadarah.aiml24@cmrit.ac.in | +916498498446 | LinkedIn | GitHub\n\nProfessional Summary\nAspiring AI/ML engineer with strong foundation in Java, Python, C, and C++. Passionate about applying computer vision and smart systems to real-world problems like agriculture, air purification, and waste management.\n\nSkills\nJava, Python, C, C++, Machine Learning, Computer Vision, TensorFlow\n\nWork Experience\nStudent Researcher (2024-Present)\n- Developed AI-based agriculture solution for crop health monitoring\n- Built garbage classification system using computer vision with 85% accuracy\n- Created smart air purification prototype with humidity control\n\nEducation\nBachelor of Engineering in Artificial Intelligence & Machine Learning\nCMR Institute of Technology, Bengaluru | Expected 2025 | CGPA: 8.5/10\n\nProjects\nAI-based Agriculture Monitoring | Python, TensorFlow\n- Built a model to detect plant diseases from leaf images with 90% accuracy\n\nSmart Air Purification with Humidifier | IoT, Arduino\n- Designed automated system that adjusts air quality based on sensor inputs\n\nGarbage Classification using Computer Vision | CNN, OpenCV\n- Achieved 85% classification accuracy on 10 categories of waste",
+      "questions": [
+        "Can you explain the process and the challenges you faced while developing the AI-based agriculture solution for crop health monitoring?",
+        "What were the key features of the garbage classification system you built using computer vision, and how did you achieve the 85% accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "Can you explain the process and the challenges you faced while developing the AI-based agriculture solution for crop health monitoring?",
+          "answer": "Oh",
+          "score": 13,
+          "feedback": "The answer is extremely brief and does not provide any relevant information about the process or challenges faced during the project. It fails to demonstrate understanding or engagement with the topic.",
+          "tips": [
+            "Provide a detailed explanation of the steps taken during the development of the project.",
+            "Discuss specific challenges encountered and how you overcame them to showcase problem-solving skills."
+          ]
+        }
+      ],
+      "scores": [
+        13
+      ],
+      "created_at": "2026-04-26T15:44:52.244469",
+      "status": "in_progress"
+    },
+    {
+      "id": "dea9c02f-3f89-4b3d-b49e-033f93340d79",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "ALEX CHEN\nFrontend Developer\nAustin, TX | (555) 234-5678 | alex.chen@example.com | linkedin.com/in/alexchen\n\nPROFESSIONAL SUMMARY\nDetail-oriented Frontend Developer with 2 years of experience building responsive web applications. Proficient in React, TypeScript, and modern CSS frameworks. Passionate about creating accessible, performant user interfaces.\n\nTECHNICAL SKILLS\n- Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3\n- Frameworks/Libraries: React, Next.js, Tailwind CSS, Bootstrap\n- Tools: Git, Webpack, Jest, Figma, VS Code\n- Concepts: Responsive Design, REST APIs, Git Flow, Agile/Scrum\n\nWORK EXPERIENCE\nFrontend Developer | TechSolutions Inc. (Austin, TX) | Jun 2022 \u2013 Present\n- Developed and maintained 5+ React components for a customer dashboard, reducing page load time by 25%.\n- Collaborated with UX designers to implement responsive designs using Tailwind CSS, achieving 98% mobile compatibility.\n- Integrated RESTful APIs using Axios and managed application state with React Context API.\n- Wrote unit tests with Jest and React Testing Library, increasing test coverage to 85%.\n- Participated in daily stand-ups, sprint planning, and code reviews within an Agile team of 8.\n\nJunior Web Developer | Creative Digital Agency (Remote) | Jan 2021 \u2013 May 2022\n- Built landing pages and email templates using HTML, CSS, and JavaScript for 10+ client campaigns.\n- Fixed cross-browser compatibility issues and optimized images for faster loading.\n- Assisted senior developers in debugging and refactoring legacy code.\n\nEDUCATION\nBachelor of Science in Computer Science\nUniversity of Texas at Austin | 2017 \u2013 2021\n- Relevant coursework: Web Development, Data Structures, UI/UX Design\n\nPROJECTS\nE\u2011Commerce Product Page (React, TypeScript, Tailwind) | github.com/alexchen/ecommerce\n- Built a fully responsive product page with cart functionality and local storage persistence.\n- Implemented dark mode toggle and accessible ARIA labels (WCAG 2.1 compliant).\n\nPortfolio Website (Next.js, Framer Motion) | alexchen.dev\n- Designed and developed personal portfolio with smooth animations and project filtering.\n- Achieved 95+ Lighthouse score for performance and SEO.\n\nCERTIFICATIONS\n- Meta Frontend Developer Professional Certificate (2023)\n- freeCodeCamp Responsive Web Design (2022)\n\nLANGUAGES\nEnglish (Fluent), Mandarin (Conversational)",
+      "questions": [
+        "How did you ensure mobile compatibility while collaborating with UX designers on the customer dashboard, and what specific strategies did you employ using Tailwind CSS?",
+        "Can you describe the implementation process for the dark mode toggle in your E-Commerce Product Page project and how you ensured it adhered to WCAG 2.1 standards?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-26T15:47:42.366444",
+      "status": "in_progress"
+    },
+    {
+      "id": "ac527856-b941-482c-9101-a410acad43d3",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "ALEX CHEN\nFrontend Developer\nAustin, TX | (555) 234-5678 | alex.chen@example.com | linkedin.com/in/alexchen\n\nPROFESSIONAL SUMMARY\nDetail-oriented Frontend Developer with 2 years of experience building responsive web applications. Proficient in React, TypeScript, and modern CSS frameworks. Passionate about creating accessible, performant user interfaces.\n\nTECHNICAL SKILLS\n- Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3\n- Frameworks/Libraries: React, Next.js, Tailwind CSS, Bootstrap\n- Tools: Git, Webpack, Jest, Figma, VS Code\n- Concepts: Responsive Design, REST APIs, Git Flow, Agile/Scrum\n\nWORK EXPERIENCE\nFrontend Developer | TechSolutions Inc. (Austin, TX) | Jun 2022 \u2013 Present\n- Developed and maintained 5+ React components for a customer dashboard, reducing page load time by 25%.\n- Collaborated with UX designers to implement responsive designs using Tailwind CSS, achieving 98% mobile compatibility.\n- Integrated RESTful APIs using Axios and managed application state with React Context API.\n- Wrote unit tests with Jest and React Testing Library, increasing test coverage to 85%.\n- Participated in daily stand-ups, sprint planning, and code reviews within an Agile team of 8.\n\nJunior Web Developer | Creative Digital Agency (Remote) | Jan 2021 \u2013 May 2022\n- Built landing pages and email templates using HTML, CSS, and JavaScript for 10+ client campaigns.\n- Fixed cross-browser compatibility issues and optimized images for faster loading.\n- Assisted senior developers in debugging and refactoring legacy code.\n\nEDUCATION\nBachelor of Science in Computer Science\nUniversity of Texas at Austin | 2017 \u2013 2021\n- Relevant coursework: Web Development, Data Structures, UI/UX Design\n\nPROJECTS\nE\u2011Commerce Product Page (React, TypeScript, Tailwind) | github.com/alexchen/ecommerce\n- Built a fully responsive product page with cart functionality and local storage persistence.\n- Implemented dark mode toggle and accessible ARIA labels (WCAG 2.1 compliant).\n\nPortfolio Website (Next.js, Framer Motion) | alexchen.dev\n- Designed and developed personal portfolio with smooth animations and project filtering.\n- Achieved 95+ Lighthouse score for performance and SEO.\n\nCERTIFICATIONS\n- Meta Frontend Developer Professional Certificate (2023)\n- freeCodeCamp Responsive Web Design (2022)\n\nLANGUAGES\nEnglish (Fluent), Mandarin (Conversational)",
+      "questions": [
+        "Can you explain how you utilized React Context API for state management in your customer dashboard project and what specific advantages you found in that approach?",
+        "What specific optimization techniques did you apply to achieve the 95+ Lighthouse score for performance on your portfolio website, and how did those strategies impact user experience?"
+      ],
+      "answers": [
+        {
+          "question": "Can you explain how you utilized React Context API for state management in your customer dashboard project and what specific advantages you found in that approach?",
+          "answer": "may",
+          "score": 16,
+          "feedback": "The answer provided is too vague and lacks detail. It does not explain how the React Context API was utilized or the specific advantages it offered in the context of the customer dashboard project.",
+          "tips": [
+            "Provide specific examples of how the React Context API was implemented in the project.",
+            "Discuss the advantages of using React Context API, such as improved state management and prop drilling reduction."
+          ]
+        },
+        {
+          "question": "What specific optimization techniques did you apply to achieve the 95+ Lighthouse score for performance on your portfolio website, and how did those strategies impact user experience?",
+          "answer": "Correct",
+          "score": 39,
+          "feedback": "The answer is marked as 'Correct' but lacks specific details on the optimization techniques used to achieve the 95+ Lighthouse score. A more comprehensive response would include concrete examples of strategies implemented, such as image optimization, code splitting, or lazy loading.",
+          "tips": [
+            "Provide specific examples of optimization techniques used.",
+            "Explain how each technique directly improved user experience."
+          ]
+        }
+      ],
+      "scores": [
+        16,
+        39
+      ],
+      "created_at": "2026-04-26T15:48:24.194711",
+      "status": "in_progress"
+    },
+    {
+      "id": "1cd26421-15aa-461a-be5e-08c5c0499613",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "JESSICA MARTINEZ\nData Analyst | Business Intelligence\nSeattle, WA | (555) 987-1234 | jessica.martinez@example.com | github.com/jessicam\n\nPROFESSIONAL SUMMARY\nResults-driven Data Analyst with 3 years of experience transforming raw data into actionable insights. Expert in SQL, Python, and data visualization tools (Tableau, Power BI). Strong background in A/B testing, dashboard creation, and stakeholder communication.\n\nTECHNICAL SKILLS\n- Databases: SQL (PostgreSQL, MySQL), BigQuery\n- Analytics: Python (Pandas, NumPy, Matplotlib), R, Excel (Advanced)\n- Visualization: Tableau, Power BI, Looker\n- Tools: Jupyter Notebook, Git, Airflow, DBeaver\n- Soft Skills: Statistical Analysis, Data Storytelling, Cross-functional Collaboration\n\nWORK EXPERIENCE\nData Analyst | Insight Analytics Corp. (Seattle, WA) | Jul 2021 \u2013 Present\n- Analyzed customer behavior data from 500K+ users using SQL and Python, identifying churn drivers that led to a 15% retention increase.\n- Built interactive Tableau dashboards for executive team, reducing weekly reporting time from 6 hours to 1 hour.\n- Designed and analyzed A/B tests for pricing page variations, resulting in a 8% lift in conversions.\n- Cleaned and preprocessed raw data from multiple sources (CSV, API, database) using Pandas.\n- Presented findings to non-technical stakeholders in weekly review meetings.\n\nJunior Data Analyst | MarketResearch Group (Portland, OR) | Jun 2019 \u2013 Jun 2021\n- Assisted senior analysts in data extraction and validation for market research reports.\n- Created automated Excel reports using VBA macros, saving team 10+ hours per month.\n- Maintained and updated internal MySQL databases with 99.9% accuracy.\n\nEDUCATION\nMaster of Science in Business Analytics\nUniversity of Washington | 2020 \u2013 2021 (GPA: 3.8)\n\nBachelor of Arts in Economics\nUniversity of California, Berkeley | 2015 \u2013 2019\n\nPROJECTS\nCustomer Churn Prediction (Python, Scikit-learn, Tableau) | github.com/jessicam/churn\n- Built logistic regression model to predict customer churn with 83% accuracy using telecom dataset.\n- Visualized key drivers (contract type, tenure, monthly charges) in an interactive Tableau dashboard.\n\nSales Performance Dashboard (Power BI, SQL)\n- Connected to live SQL database to track regional sales KPIs; used by regional managers daily.\n- Implemented row-level security for manager-specific views.\n\nCERTIFICATIONS\n- Google Data Analytics Professional Certificate (2022)\n- Tableau Desktop Specialist (2023)\n\nADDITIONAL\n- Volunteer Data Analyst for local non-profit (food bank optimization)\n- Blog: \u201cData Viz Weekly\u201d \u2013 500+ subscribers",
+      "questions": [
+        "Can you describe your process for analyzing customer behavior data from over 500K users and how you identified the churn drivers that contributed to a 15% retention increase?",
+        "What insights did you gain from building the logistic regression model for customer churn prediction, and how did you visualize the key drivers in your Tableau dashboard?"
+      ],
+      "answers": [
+        {
+          "question": "Can you describe your process for analyzing customer behavior data from over 500K users and how you identified the churn drivers that contributed to a 15% retention increase?",
+          "answer": "What is this? I don't know, it's a thing. What is it? I don't know anything and I don't know.",
+          "score": 9,
+          "feedback": "The answer demonstrates a complete lack of understanding and preparation, which is concerning for a data analyst role. It fails to address the question and does not reflect any of the skills or experiences listed on the resume.",
+          "tips": [
+            "Review your resume and be prepared to discuss specific projects and methodologies you've used.",
+            "Practice articulating your analytical processes and findings to demonstrate your expertise and confidence."
+          ]
+        }
+      ],
+      "scores": [
+        9
+      ],
+      "created_at": "2026-04-27T08:01:31.947886",
+      "status": "in_progress"
+    },
+    {
+      "id": "6aca2195-e7b3-4f13-a464-5330d068cc67",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "JESSICA MARTINEZ\nData Analyst | Business Intelligence\nSeattle, WA | (555) 987-1234 | jessica.martinez@example.com | github.com/jessicam\n\nPROFESSIONAL SUMMARY\nResults-driven Data Analyst with 3 years of experience transforming raw data into actionable insights. Expert in SQL, Python, and data visualization tools (Tableau, Power BI). Strong background in A/B testing, dashboard creation, and stakeholder communication.\n\nTECHNICAL SKILLS\n- Databases: SQL (PostgreSQL, MySQL), BigQuery\n- Analytics: Python (Pandas, NumPy, Matplotlib), R, Excel (Advanced)\n- Visualization: Tableau, Power BI, Looker\n- Tools: Jupyter Notebook, Git, Airflow, DBeaver\n- Soft Skills: Statistical Analysis, Data Storytelling, Cross-functional Collaboration\n\nWORK EXPERIENCE\nData Analyst | Insight Analytics Corp. (Seattle, WA) | Jul 2021 \u2013 Present\n- Analyzed customer behavior data from 500K+ users using SQL and Python, identifying churn drivers that led to a 15% retention increase.\n- Built interactive Tableau dashboards for executive team, reducing weekly reporting time from 6 hours to 1 hour.\n- Designed and analyzed A/B tests for pricing page variations, resulting in a 8% lift in conversions.\n- Cleaned and preprocessed raw data from multiple sources (CSV, API, database) using Pandas.\n- Presented findings to non-technical stakeholders in weekly review meetings.\n\nJunior Data Analyst | MarketResearch Group (Portland, OR) | Jun 2019 \u2013 Jun 2021\n- Assisted senior analysts in data extraction and validation for market research reports.\n- Created automated Excel reports using VBA macros, saving team 10+ hours per month.\n- Maintained and updated internal MySQL databases with 99.9% accuracy.\n\nEDUCATION\nMaster of Science in Business Analytics\nUniversity of Washington | 2020 \u2013 2021 (GPA: 3.8)\n\nBachelor of Arts in Economics\nUniversity of California, Berkeley | 2015 \u2013 2019\n\nPROJECTS\nCustomer Churn Prediction (Python, Scikit-learn, Tableau) | github.com/jessicam/churn\n- Built logistic regression model to predict customer churn with 83% accuracy using telecom dataset.\n- Visualized key drivers (contract type, tenure, monthly charges) in an interactive Tableau dashboard.\n\nSales Performance Dashboard (Power BI, SQL)\n- Connected to live SQL database to track regional sales KPIs; used by regional managers daily.\n- Implemented row-level security for manager-specific views.\n\nCERTIFICATIONS\n- Google Data Analytics Professional Certificate (2022)\n- Tableau Desktop Specialist (2023)\n\nADDITIONAL\n- Volunteer Data Analyst for local non-profit (food bank optimization)\n- Blog: \u201cData Viz Weekly\u201d \u2013 500+ subscribers",
+      "questions": [
+        "Can you elaborate on how you utilized SQL and Python to identify churn drivers in your analysis of customer behavior data, and what specific insights you derived from that analysis?",
+        "In your project on Customer Churn Prediction, how did you approach building the logistic regression model, and what were the key factors that influenced your model's accuracy?"
+      ],
+      "answers": [
+        {
+          "question": "Can you elaborate on how you utilized SQL and Python to identify churn drivers in your analysis of customer behavior data, and what specific insights you derived from that analysis?",
+          "answer": "Hey, stand up and analyze the method. Can you elaborate on the how you utilize it? How you utilize it here and by then, identify it. So, how that was the door I knew, analysis of customer behavior data and what's the reason? I said, I'm more fit there. Oh, I don't know. Sorry, I wrote the rather ask for an expression.",
+          "score": 62,
+          "feedback": "Good attempt. Keep practicing to improve your answers.",
+          "tips": [
+            "Be more specific with examples from your resume",
+            "Use the STAR method",
+            "Practice regularly"
+          ]
+        }
+      ],
+      "scores": [
+        62
+      ],
+      "created_at": "2026-04-27T11:18:18.506613",
+      "status": "in_progress"
+    },
+    {
+      "id": "2b97803b-bb8a-419a-b77c-63126a6c34ef",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "JESSICA MARTINEZ\nData Analyst | Business Intelligence\nSeattle, WA | (555) 987-1234 | jessica.martinez@example.com | github.com/jessicam\n\nPROFESSIONAL SUMMARY\nResults-driven Data Analyst with 3 years of experience transforming raw data into actionable insights. Expert in SQL, Python, and data visualization tools (Tableau, Power BI). Strong background in A/B testing, dashboard creation, and stakeholder communication.\n\nTECHNICAL SKILLS\n- Databases: SQL (PostgreSQL, MySQL), BigQuery\n- Analytics: Python (Pandas, NumPy, Matplotlib), R, Excel (Advanced)\n- Visualization: Tableau, Power BI, Looker\n- Tools: Jupyter Notebook, Git, Airflow, DBeaver\n- Soft Skills: Statistical Analysis, Data Storytelling, Cross-functional Collaboration\n\nWORK EXPERIENCE\nData Analyst | Insight Analytics Corp. (Seattle, WA) | Jul 2021 \u2013 Present\n- Analyzed customer behavior data from 500K+ users using SQL and Python, identifying churn drivers that led to a 15% retention increase.\n- Built interactive Tableau dashboards for executive team, reducing weekly reporting time from 6 hours to 1 hour.\n- Designed and analyzed A/B tests for pricing page variations, resulting in a 8% lift in conversions.\n- Cleaned and preprocessed raw data from multiple sources (CSV, API, database) using Pandas.\n- Presented findings to non-technical stakeholders in weekly review meetings.\n\nJunior Data Analyst | MarketResearch Group (Portland, OR) | Jun 2019 \u2013 Jun 2021\n- Assisted senior analysts in data extraction and validation for market research reports.\n- Created automated Excel reports using VBA macros, saving team 10+ hours per month.\n- Maintained and updated internal MySQL databases with 99.9% accuracy.\n\nEDUCATION\nMaster of Science in Business Analytics\nUniversity of Washington | 2020 \u2013 2021 (GPA: 3.8)\n\nBachelor of Arts in Economics\nUniversity of California, Berkeley | 2015 \u2013 2019\n\nPROJECTS\nCustomer Churn Prediction (Python, Scikit-learn, Tableau) | github.com/jessicam/churn\n- Built logistic regression model to predict customer churn with 83% accuracy using telecom dataset.\n- Visualized key drivers (contract type, tenure, monthly charges) in an interactive Tableau dashboard.\n\nSales Performance Dashboard (Power BI, SQL)\n- Connected to live SQL database to track regional sales KPIs; used by regional managers daily.\n- Implemented row-level security for manager-specific views.\n\nCERTIFICATIONS\n- Google Data Analytics Professional Certificate (2022)\n- Tableau Desktop Specialist (2023)\n\nADDITIONAL\n- Volunteer Data Analyst for local non-profit (food bank optimization)\n- Blog: \u201cData Viz Weekly\u201d \u2013 500+ subscribers",
+      "questions": [
+        "How did your experience in maintaining MySQL databases with 99.9% accuracy influence your approach to data cleaning and validation in your current role at Insight Analytics Corp.?",
+        "Can you describe the process you followed to implement row-level security in your Sales Performance Dashboard project and the specific challenges you faced during that implementation?"
+      ],
+      "answers": [
+        {
+          "question": "How did your experience in maintaining MySQL databases with 99.9% accuracy influence your approach to data cleaning and validation in your current role at Insight Analytics Corp.?",
+          "answer": "I am very working mother and older questions are in the network. So I use mySQL data to run it now. And that it's a problem. Using all the build functions in mySQL, I used to move my mind most probably I used to run mySQL SMS for this project. And for the decision modulation use the app so I can buy it more easily So we have...",
+          "score": 29,
+          "feedback": "The answer is unclear and lacks coherence, making it difficult to understand how the experience with MySQL databases influences current data cleaning and validation practices. It does not directly address the question and seems to contain irrelevant information.",
+          "tips": [
+            "Focus on clearly articulating how your past experiences directly relate to your current role.",
+            "Use specific examples to illustrate your approach to data cleaning and validation, making sure to stay on topic."
+          ]
+        }
+      ],
+      "scores": [
+        29
+      ],
+      "created_at": "2026-04-27T11:24:41.713463",
+      "status": "in_progress"
+    },
+    {
+      "id": "f7e565a5-932d-4e28-aec3-3f0e14582038",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "JESSICA MARTINEZ\nData Analyst | Business Intelligence\nSeattle, WA | (555) 987-1234 | jessica.martinez@example.com | github.com/jessicam\n\nPROFESSIONAL SUMMARY\nResults-driven Data Analyst with 3 years of experience transforming raw data into actionable insights. Expert in SQL, Python, and data visualization tools (Tableau, Power BI). Strong background in A/B testing, dashboard creation, and stakeholder communication.\n\nTECHNICAL SKILLS\n- Databases: SQL (PostgreSQL, MySQL), BigQuery\n- Analytics: Python (Pandas, NumPy, Matplotlib), R, Excel (Advanced)\n- Visualization: Tableau, Power BI, Looker\n- Tools: Jupyter Notebook, Git, Airflow, DBeaver\n- Soft Skills: Statistical Analysis, Data Storytelling, Cross-functional Collaboration\n\nWORK EXPERIENCE\nData Analyst | Insight Analytics Corp. (Seattle, WA) | Jul 2021 \u2013 Present\n- Analyzed customer behavior data from 500K+ users using SQL and Python, identifying churn drivers that led to a 15% retention increase.\n- Built interactive Tableau dashboards for executive team, reducing weekly reporting time from 6 hours to 1 hour.\n- Designed and analyzed A/B tests for pricing page variations, resulting in a 8% lift in conversions.\n- Cleaned and preprocessed raw data from multiple sources (CSV, API, database) using Pandas.\n- Presented findings to non-technical stakeholders in weekly review meetings.\n\nJunior Data Analyst | MarketResearch Group (Portland, OR) | Jun 2019 \u2013 Jun 2021\n- Assisted senior analysts in data extraction and validation for market research reports.\n- Created automated Excel reports using VBA macros, saving team 10+ hours per month.\n- Maintained and updated internal MySQL databases with 99.9% accuracy.\n\nEDUCATION\nMaster of Science in Business Analytics\nUniversity of Washington | 2020 \u2013 2021 (GPA: 3.8)\n\nBachelor of Arts in Economics\nUniversity of California, Berkeley | 2015 \u2013 2019\n\nPROJECTS\nCustomer Churn Prediction (Python, Scikit-learn, Tableau) | github.com/jessicam/churn\n- Built logistic regression model to predict customer churn with 83% accuracy using telecom dataset.\n- Visualized key drivers (contract type, tenure, monthly charges) in an interactive Tableau dashboard.\n\nSales Performance Dashboard (Power BI, SQL)\n- Connected to live SQL database to track regional sales KPIs; used by regional managers daily.\n- Implemented row-level security for manager-specific views.\n\nCERTIFICATIONS\n- Google Data Analytics Professional Certificate (2022)\n- Tableau Desktop Specialist (2023)\n\nADDITIONAL\n- Volunteer Data Analyst for local non-profit (food bank optimization)\n- Blog: \u201cData Viz Weekly\u201d \u2013 500+ subscribers",
+      "questions": [
+        "Can you explain the approach you took to design the A/B tests for the pricing page variations and how you measured the success of those tests?",
+        "In your Sales Performance Dashboard project, what specific methods did you use to ensure the implementation of row-level security met the needs of the regional managers, and how did you validate its effectiveness?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T11:28:13.266579",
+      "status": "in_progress"
+    },
+    {
+      "id": "8aaefc6c-5df7-4779-ac1f-fb38b5f9796e",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your project 'Vision-Based Waste Classification System', can you explain how you utilized machine learning for waste classification and the challenges you faced while training the model with 3000+ images?",
+        "As the leader of the 'Smart Air Purification System' project, how did you manage the team and what specific IoT technologies did you integrate to monitor indoor air quality?"
+      ],
+      "answers": [
+        {
+          "question": "In your project 'Vision-Based Waste Classification System', can you explain how you utilized machine learning for waste classification and the challenges you faced while training the model with 3000+ images?",
+          "answer": "in the vision base to communicate this term we used the 3000 plus images from the repository, the data repository and many other open sources. So we used Google Adults to train this model. We have uploaded all the images that we have taken to the layer model and train it again. So that error will be the error is cut on. So the channel is the same. So we have uploaded 3000 plus images. It will increase the accuracy. So the error model will work with the full.",
+          "score": 48,
+          "feedback": "The candidate's answer references the project but lacks clarity and specific details about the machine learning techniques used. Additionally, the explanation of challenges faced is vague and does not provide insight into the problem-solving process.",
+          "tips": [
+            "Provide a clear explanation of the machine learning model used and the rationale behind choosing it.",
+            "Discuss specific challenges encountered during the training process and how they were addressed to improve the model's performance."
+          ]
+        }
+      ],
+      "scores": [
+        48
+      ],
+      "created_at": "2026-04-27T11:41:28.102667",
+      "status": "in_progress"
+    },
+    {
+      "id": "ce0b6bfc-d065-4952-b273-912cf4c902ea",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your resume, you mention Artificial Intelligence. Can you give an example of a real-world problem you solved using Artificial Intelligence?",
+        "You participated in hackathons. Tell me about one hackathon project and your contribution."
+      ],
+      "answers": [
+        {
+          "question": "In your resume, you mention Artificial Intelligence. Can you give an example of a real-world problem you solved using Artificial Intelligence?",
+          "answer": "developed an automation platform that allows user to connect function broke to perform tasks such as sending emails processing videos and automating work flow with a single iosam tools and technology like MongoDB, Python automation, workflows, APIs, tools as developer, that's it.",
+          "score": 41,
+          "feedback": "Your answer touched on some relevant points. For better results, directly reference your resume projects or skills.",
+          "tips": [
+            "Use specific project names from your resume",
+            "Explain your role and the technologies you used"
+          ]
+        },
+        {
+          "question": "You participated in hackathons. Tell me about one hackathon project and your contribution.",
+          "answer": "me and my friends attended national level Akaton and fellow institute of technology and we got selected 3 to 3 different competition teams. So like what it I do is actually I made a frontend and backend connected proper working backend and friends and that's it.",
+          "score": 41,
+          "feedback": "Your answer touched on some relevant points. For better results, directly reference your resume projects or skills.",
+          "tips": [
+            "Use specific project names from your resume",
+            "Explain your role and the technologies you used"
+          ]
+        }
+      ],
+      "scores": [
+        41,
+        41
+      ],
+      "created_at": "2026-04-27T19:04:54.977467",
+      "status": "completed",
+      "ended_at": "2026-04-27T19:09:40.866867"
+    },
+    {
+      "id": "346d8bfe-1bcc-45a9-a0ab-18ab2125348c",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your resume, you mention Artificial Intelligence. Can you give an example of a real-world problem you solved using Artificial Intelligence?",
+        "You participated in hackathons. Tell me about one hackathon project and your contribution."
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T19:09:45.788859",
+      "status": "in_progress"
+    },
+    {
+      "id": "640b220c-d65a-49e0-8be0-d17f62e08aa6",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your resume, you mention Artificial Intelligence. Can you give an example of a real-world problem you solved using Artificial Intelligence?",
+        "You participated in hackathons. Tell me about one hackathon project and your contribution."
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T19:09:58.671213",
+      "status": "in_progress"
+    },
+    {
+      "id": "b8c618e7-5407-49ca-956b-e31d8745d410",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your resume, you mention Artificial Intelligence. Can you give an example of a real-world problem you solved using Artificial Intelligence?",
+        "You participated in hackathons. Tell me about one hackathon project and your contribution."
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T19:10:27.909235",
+      "status": "in_progress"
+    },
+    {
+      "id": "9859a553-78e8-4f9a-a478-3f286a8da8e3",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "JESSICA MARTINEZ\nData Analyst | Business Intelligence\nSeattle, WA | (555) 987-1234 | jessica.martinez@example.com | github.com/jessicam\n\nPROFESSIONAL SUMMARY\nResults-driven Data Analyst with 3 years of experience transforming raw data into actionable insights. Expert in SQL, Python, and data visualization tools (Tableau, Power BI). Strong background in A/B testing, dashboard creation, and stakeholder communication.\n\nTECHNICAL SKILLS\n- Databases: SQL (PostgreSQL, MySQL), BigQuery\n- Analytics: Python (Pandas, NumPy, Matplotlib), R, Excel (Advanced)\n- Visualization: Tableau, Power BI, Looker\n- Tools: Jupyter Notebook, Git, Airflow, DBeaver\n- Soft Skills: Statistical Analysis, Data Storytelling, Cross-functional Collaboration\n\nWORK EXPERIENCE\nData Analyst | Insight Analytics Corp. (Seattle, WA) | Jul 2021 \u2013 Present\n- Analyzed customer behavior data from 500K+ users using SQL and Python, identifying churn drivers that led to a 15% retention increase.\n- Built interactive Tableau dashboards for executive team, reducing weekly reporting time from 6 hours to 1 hour.\n- Designed and analyzed A/B tests for pricing page variations, resulting in a 8% lift in conversions.\n- Cleaned and preprocessed raw data from multiple sources (CSV, API, database) using Pandas.\n- Presented findings to non-technical stakeholders in weekly review meetings.\n\nJunior Data Analyst | MarketResearch Group (Portland, OR) | Jun 2019 \u2013 Jun 2021\n- Assisted senior analysts in data extraction and validation for market research reports.\n- Created automated Excel reports using VBA macros, saving team 10+ hours per month.\n- Maintained and updated internal MySQL databases with 99.9% accuracy.\n\nEDUCATION\nMaster of Science in Business Analytics\nUniversity of Washington | 2020 \u2013 2021 (GPA: 3.8)\n\nBachelor of Arts in Economics\nUniversity of California, Berkeley | 2015 \u2013 2019\n\nPROJECTS\nCustomer Churn Prediction (Python, Scikit-learn, Tableau) | github.com/jessicam/churn\n- Built logistic regression model to predict customer churn with 83% accuracy using telecom dataset.\n- Visualized key drivers (contract type, tenure, monthly charges) in an interactive Tableau dashboard.\n\nSales Performance Dashboard (Power BI, SQL)\n- Connected to live SQL database to track regional sales KPIs; used by regional managers daily.\n- Implemented row-level security for manager-specific views.\n\nCERTIFICATIONS\n- Google Data Analytics Professional Certificate (2022)\n- Tableau Desktop Specialist (2023)\n\nADDITIONAL\n- Volunteer Data Analyst for local non-profit (food bank optimization)\n- Blog: \u201cData Viz Weekly\u201d \u2013 500+ subscribers",
+      "resume_skills": [
+        "Statistical Analysis",
+        "Data Storytelling",
+        "Cross-functional Collaboration"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your resume, you mention Statistical Analysis. Can you give an example of a real-world problem you solved using Statistical Analysis?",
+        "Which certification from your resume has been most valuable and why?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T19:11:45.210318",
+      "status": "in_progress"
+    },
+    {
+      "id": "0cbe7724-9dc3-461c-ad49-e7de8600eae5",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your project 'Vision-Based Waste Classification System', what specific challenges did you face while training the machine learning model on the dataset of 3000+ images?",
+        "Can you explain the architecture and components of the 'Smart Air Purification System' you led, particularly how the sensors interact with the Arduino Uno?"
+      ],
+      "answers": [
+        {
+          "question": "In your project 'Vision-Based Waste Classification System', what specific challenges did you face while training the machine learning model on the dataset of 3000+ images?",
+          "answer": "so",
+          "score": 4,
+          "feedback": "The candidate's answer is incomplete and does not address the question regarding specific challenges faced during the project. There is no reference to the resume content or any relevant details about the project.",
+          "tips": [
+            "Provide a detailed explanation of specific challenges encountered while training the model, such as data quality issues or model performance problems.",
+            "Reference specific techniques or adjustments made to overcome those challenges, linking back to the skills and technologies mentioned in the resume."
+          ]
+        },
+        {
+          "question": "Can you explain the architecture and components of the 'Smart Air Purification System' you led, particularly how the sensors interact with the Arduino Uno?",
+          "answer": "Mango is very good boy.",
+          "score": 4,
+          "feedback": "The candidate's answer is completely irrelevant to the question asked and does not reference any content from their resume. It fails to demonstrate any understanding of the project or its components.",
+          "tips": [
+            "Focus on providing specific details about the project, such as the role of sensors and how they interact with the Arduino Uno.",
+            "Practice articulating technical concepts clearly, ensuring that your responses are relevant to the questions asked."
+          ]
+        }
+      ],
+      "scores": [
+        4,
+        4
+      ],
+      "created_at": "2026-04-27T19:14:06.597865",
+      "status": "completed",
+      "ended_at": "2026-04-27T19:15:43.735348"
+    },
+    {
+      "id": "9a01a574-cde8-4e2f-b055-7cbd2d41c7e4",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In your project 'Scrap finder', can you elaborate on how you integrated APIs to automate workflows and what challenges you faced during this process?",
+        "You mentioned participating in a national level hackathon at Vellore Institute of Technology. Can you discuss a specific contribution you made that helped your team reach the finals?"
+      ],
+      "answers": [
+        {
+          "question": "In your project 'Scrap finder', can you elaborate on how you integrated APIs to automate workflows and what challenges you faced during this process?",
+          "answer": "I actually use Python with request and the flash to create rest and pulse for automation workflow integrated Gmail API to send Gmail's YouTube data API to fetch video data.",
+          "score": 58,
+          "feedback": "The candidate's answer references the project 'Scrap finder' and mentions relevant technologies, but lacks clarity and depth in explaining the integration process. Additionally, the response contains some grammatical errors that hinder understanding.",
+          "tips": [
+            "Provide a clearer explanation of how each API was specifically integrated into the project and the role it played in the automation workflow.",
+            "Use proper grammar and structure to enhance the clarity of your response, ensuring that technical details are communicated effectively."
+          ]
+        },
+        {
+          "question": "You mentioned participating in a national level hackathon at Vellore Institute of Technology. Can you discuss a specific contribution you made that helped your team reach the finals?",
+          "answer": "Mango is very good for health.",
+          "score": 7,
+          "feedback": "The answer is completely irrelevant to the question asked and does not reference any specific contributions or experiences from the resume. It fails to demonstrate any connection to the hackathon experience mentioned.",
+          "tips": [
+            "Focus on providing a specific example of your contribution during the hackathon, such as a particular role you played or a problem you solved.",
+            "Reference relevant skills or projects from your resume that align with the hackathon experience to create a more compelling answer."
+          ]
+        }
+      ],
+      "scores": [
+        58,
+        7
+      ],
+      "created_at": "2026-04-27T19:15:57.727675",
+      "status": "completed",
+      "ended_at": "2026-04-27T19:18:41.856386"
+    },
+    {
+      "id": "62f04471-9091-41a7-8345-4f28d32ed860",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In the 'Vision-Based Waste Classification System' project, how did you handle the preprocessing of the 3000+ images before training the machine learning model?",
+        "You mentioned using MongoDB in your 'Scrap finder' project. Can you explain how you designed the database schema to support the automation workflows?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T19:18:55.083504",
+      "status": "in_progress"
+    },
+    {
+      "id": "5731d0ba-7f78-4372-9551-f26764c4f2af",
+      "user_id": "user_4dc60b1adecf",
+      "resume_text": "DHRUVA DEVAIAH PM\n\nBangalore \u2013 560037 | dhruvadevaiahpm@gmail.com| +91 9380812852 | LinkedIn | Github |\n\nPROFILE SUMMARY\nAI & ML undergraduate (CGPA 9.15) skilled in Python, Java, SQL, and IoT systems with experience in\nhackathons and innovative project development.\nACADEMIC DETAILS\n\uf0b7 Bachelors of Engineering \u2013 Artificial Intelligence and Machine Learning\nCMR Institute OF Technology | CGPA-9.15/10 | Year of Graduation-2028\n\uf0b7 12th Grade\nExcellent PU College| 95%| 2024\n\uf0b7 10th Grade\nSt Joseph\u2019s Convent Composite High School | 98% | 2022\nTECHNICAL SKILLS\n\uf0b7 Programming Languages: Python ,Java,c\n\uf0b7 Software Development skills:Data Structures,Object-Oriented Programming ,Problem Solving\n\uf0b7 Database Management: MySQL, Mongo DB,Microsoft SQL Server(ssms)\n\uf0b7 Operating Systems:ubuntu Linux,Window.\n\uf0b7 Web Technologies:HTML basics\n\uf0b7 Domain based Skills: Artificial Intelligence, Machine Learning, IoT Systems, Automation\nworkflows\nPROJECTS\n\uf0b7 Scrap finder-AI Based Website Summarizer\no Developed an automation platform that allows users to connect functional blocks to perform tasks\nsuch as sending emails, processing videos, and automating workflows with a single click.\no Tools & Technologies used:Mongo DB, Python, Automation Workflows, APIs\no Role :devoloper\n\uf0b7 Smart Air Purification System\no Implemented an IoT-based air purification system using sensors to monitor and improve indoor air\nquality.\no Tools & Technologies used: : Arduin Uno, DHT Sensors Led Display,Fans,Humidifiers\no Role :Leader\n\uf0b7 Vision-Based Waste Classification System\no Built a machine learning system trained on 3000+ images to classify waste materials and control\nservo motors for automated sorting.\no Tools & Technologies used: Python, Machine Learning, Arduino Uno, Web Cam,Servo Motors\no Role :devoloper\nCO-CURRICULAR & EXTRA-CURRICULAR ACTIVITIES\n\uf0b7 Hackathons: Final Round Shortlist \u2013 Hackathon at Vellore Institute of Technology, Vellore; Participation \u2013\nAcharya Institute of Technology, Bengaluru; Participation \u2013 Shree Devi Institute of Technology, Mangaluru.\n\uf0b7 Certifications: Python Programming Certification; C Programming Certification; Programming in Java \u2013 NPTEL\n(Pursuing); Artificial Intelligence & machine learning Course by IIT Indore \u2013 Intellipaat (Ongoing).\nACHIEVEMENTS\n\uf0b7 Finalist \u2013 National Level Hackathon, Vellore Institute of Technology, Vellore (Selected for the final\nround among 320+ competing teams).\n\uf0b7 First Place \u2013 Mini Project Competition, CMR Institute of Technology, Bengaluru.",
+      "resume_skills": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "IoT Systems",
+        "Automation"
+      ],
+      "resume_projects": [],
+      "questions": [
+        "In the 'Smart Air Purification System' project, what specific challenges did you face while integrating the sensors, and how did you ensure accurate monitoring of indoor air quality?",
+        "You mentioned using machine learning in the 'Vision-Based Waste Classification System'. Can you explain the approach you took to select the right algorithms for classifying the waste materials?"
+      ],
+      "answers": [],
+      "scores": [],
+      "created_at": "2026-04-27T19:19:26.049985",
       "status": "in_progress"
     }
   ]

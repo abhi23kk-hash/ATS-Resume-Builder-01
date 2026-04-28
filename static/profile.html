@@ -200,6 +200,7 @@
             const res = await fetch('/api/auth/user', { credentials: 'include' });
             const data = await res.json();
             if (!data.isLoggedIn) {
+                sessionStorage.setItem('redirectAfterLogin', window.location.pathname);
                 window.location.href = 'login.html';
                 return;
             }

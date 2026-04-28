@@ -418,6 +418,12 @@
             if (!data.isLoggedIn) {
                 window.location.href = 'login.html';
             } else {
+                const redirect = sessionStorage.getItem('redirectAfterLogin');
+                if (redirect) {
+                    sessionStorage.removeItem('redirectAfterLogin');
+                    window.location.href = redirect;
+                    return; // stop further execution
+                }
                 const userName = data.user.fullName || data.user.username;
                 document.getElementById('side-username').textContent = userName;
                 const greeting = document.querySelector('.user-greeting p');

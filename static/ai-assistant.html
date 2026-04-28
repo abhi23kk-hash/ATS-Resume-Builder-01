@@ -311,6 +311,7 @@
     let currentUtterance = null;
     let recognition = null;
     let isRecording = false;
+    let titleGenerated = false;
 
     // Personality prompt for AI (career coach)
     const SYSTEM_PROMPT = "You are a friendly, professional career coach and resume expert. Help users improve their resumes, prepare for interviews, and optimize for ATS. Keep answers concise, practical, and encouraging. Always be helpful and positive.";
@@ -341,12 +342,10 @@
         return date.toLocaleString();
     }
 
-    // Scroll to bottom of messages
     function scrollToBottom() {
         messagesArea.scrollTop = messagesArea.scrollHeight;
     }
 
-    // Render messages in the chat area
     function renderMessages() {
         messagesArea.innerHTML = '';
         currentMessages.forEach(msg => {
@@ -363,20 +362,95 @@
         scrollToBottom();
     }
 
-    // Add a message to current conversation (UI only)
     function addMessageToUI(role, text) {
         const timestamp = new Date().toISOString();
         currentMessages.push({ role, text, timestamp });
         renderMessages();
-        // Auto-save to backend
         saveCurrentConversation();
+        // Trigger title generation after the first real AI reply (welcome + first user message + answer = 2 bot messages)
+        if (role === 'bot' && currentMessages.filter(m => m.role === 'bot').length === 2 && !titleGenerated) {
+            generateConversationTitle();
+        }
     }
 
-    // Save current conversation to backend
+    // -------------------- AI‑powered title generation --------------------
+    async function generateConversationTitle() {
+        if (titleGenerated) return;
+        const firstUserMsg = currentMessages.find(m => m.role === 'user')?.text || '';
+        const firstBotMsg = currentMessages.find(m => m.role === 'bot')?.text || '';
+        if (!firstUserMsg && !firstBotMsg) return;
+
+        const prompt = `Based on this conversation starter, generate a very short title (2‑6 words) that captures the topic. Reply with ONLY the title, no extra text or quotes.\n\nUser: ${firstUserMsg}\nAI: ${firstBotMsg}\n\nTitle:`;
+
+        try {
+            const res = await fetch('/api/ai/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'include',
+                body: JSON.stringify({
+                    userMessage: prompt,
+                    resumeContent: '',
+                    systemPrompt: "You are a title generator. Output only the title, no extra words."
+                })
+            });
+            const data = await res.json();
+            let newTitle = data.response || '';
+            newTitle = newTitle.replace(/^["']|["']$/g, '').trim();
+            if (newTitle.length > 40) newTitle = newTitle.substring(0, 40);
+            if (newTitle && newTitle !== "New Conversation") {
+                await updateConversationTitle(newTitle);
+                titleGenerated = true;
+                await loadConversationsList();
+                if (currentConversationId) {
+                    document.querySelectorAll('.conv-item').forEach(el => {
+                        if (el.dataset.id === currentConversationId) el.classList.add('active');
+                    });
+                }
+            }
+        } catch (err) {
+            console.warn('Title generation failed', err);
+        }
+    }
+
+    async function updateConversationTitle(newTitle) {
+        if (!currentConversationId) return;
+        const payload = {
+            id: currentConversationId,
+            title: newTitle,
+            messages: currentMessages
+        };
+        try {
+            const response = await fetch('/api/conversations/save', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'include',
+                body: JSON.stringify(payload)
+            });
+            if (!response.ok) {
+                console.error('Title save failed', await response.text());
+                return;
+            }
+            const convIndex = conversations.findIndex(c => c.id === currentConversationId);
+            if (convIndex !== -1) {
+                conversations[convIndex].title = newTitle;
+            }
+            renderConversationsList();
+        } catch (err) {
+            console.error('Title update error', err);
+        }
+    }
+
     async function saveCurrentConversation() {
         if (!currentConversationId && currentMessages.length === 0) return;
-        let title = currentMessages.length > 0 ? currentMessages[0].text.substring(0, 40) : "New Conversation";
-        if (title.length > 40) title += "...";
+        let title = "New Conversation";
+        if (titleGenerated && currentConversationId) {
+            const conv = conversations.find(c => c.id === currentConversationId);
+            if (conv && conv.title !== "New Conversation") title = conv.title;
+        }
+        if (!titleGenerated && currentMessages.length > 0) {
+            const firstUserText = currentMessages.find(m => m.role === 'user')?.text || '';
+            title = firstUserText.length > 40 ? firstUserText.substring(0, 40) + '…' : (firstUserText || "New Conversation");
+        }
         try {
             const res = await fetch('/api/conversations/save', {
                 method: 'POST',
@@ -392,13 +466,12 @@
             if (data.id && !currentConversationId) {
                 currentConversationId = data.id;
             }
-            loadConversationsList(); // refresh sidebar
+            await loadConversationsList();
         } catch (err) {
             console.error('Save conversation error:', err);
         }
     }
 
-    // Load conversation by ID
     async function loadConversation(convId) {
         try {
             const res = await fetch(`/api/conversations/get/${convId}`, { credentials: 'include' });
@@ -406,8 +479,11 @@
                 const conv = await res.json();
                 currentConversationId = conv.id;
                 currentMessages = conv.messages || [];
+                const defaultTitle = currentMessages.length > 0 
+                    ? (currentMessages[0].text?.substring(0, 40) || "New Conversation")
+                    : "New Conversation";
+                titleGenerated = conv.title && conv.title !== defaultTitle && conv.title !== "New Conversation";
                 renderMessages();
-                // highlight active in sidebar
                 document.querySelectorAll('.conv-item').forEach(el => {
                     el.classList.remove('active');
                     if (el.dataset.id === convId) el.classList.add('active');
@@ -418,7 +494,6 @@
         }
     }
 
-    // Load all conversations for sidebar
     async function loadConversationsList() {
         try {
             const res = await fetch('/api/conversations/list', { credentials: 'include' });
@@ -431,7 +506,6 @@
         }
     }
 
-    // Render sidebar list with search filter
     function renderConversationsList() {
         const searchTerm = searchInput.value.toLowerCase();
         let filtered = conversations.filter(c => c.title.toLowerCase().includes(searchTerm));
@@ -443,7 +517,6 @@
             </div>
         `).join('');
 
-        // Attach click events
         document.querySelectorAll('.conv-item').forEach(el => {
             el.addEventListener('click', (e) => {
                 if (e.target.closest('.delete-conv')) return;
@@ -458,7 +531,6 @@
                 if (confirm('Delete this conversation?')) {
                     await fetch(`/api/conversations/delete/${id}`, { method: 'DELETE', credentials: 'include' });
                     if (currentConversationId === id) {
-                        // start new conversation
                         await newConversation();
                     }
                     await loadConversationsList();
@@ -467,29 +539,23 @@
         });
     }
 
-    // Start a new conversation
     async function newConversation() {
         currentConversationId = null;
         currentMessages = [];
+        titleGenerated = false;
         renderMessages();
-        // Add a welcome message from AI
         const welcomeMsg = "Hello! I'm your AI Career Coach. How can I help you with your resume or career today?";
         addMessageToUI('bot', welcomeMsg);
-        // Speak the welcome message automatically
         speakText(welcomeMsg);
-        // Clear active highlight
         document.querySelectorAll('.conv-item').forEach(el => el.classList.remove('active'));
-        // No need to save yet (empty conversation)
     }
 
-    // Send user message to AI
     async function sendMessage() {
         const userText = messageInput.value.trim();
         if (!userText) return;
         messageInput.value = '';
         addMessageToUI('user', userText);
 
-        // Show typing indicator
         const typingDiv = document.createElement('div');
         typingDiv.className = 'typing-indicator';
         typingDiv.innerHTML = '<span></span><span></span><span></span>';
@@ -504,15 +570,13 @@
                 body: JSON.stringify({
                     userMessage: userText,
                     resumeContent: '',
-                    systemPrompt: SYSTEM_PROMPT  // you'll need to modify backend to accept this, or just override default
+                    systemPrompt: SYSTEM_PROMPT
                 })
             });
             const data = await response.json();
             const botReply = data.response || "Sorry, I couldn't process that.";
-            // Remove typing indicator
             messagesArea.removeChild(typingDiv);
             addMessageToUI('bot', botReply);
-            // Speak the bot reply
             speakText(botReply);
         } catch (err) {
             messagesArea.removeChild(typingDiv);
@@ -522,7 +586,6 @@
         }
     }
 
-    // Text-to-speech with auto-stop on new speech or user stop
     function speakText(text) {
         if (currentUtterance) {
             speechSynthesis.cancel();
@@ -545,7 +608,6 @@
         }
     }
 
-    // Voice input (speech-to-text)
     function startVoiceInput() {
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         if (!SpeechRecognition) {
@@ -600,7 +662,6 @@
 
     // -------------------- Initialization --------------------
     async function init() {
-        // Check authentication
         const authRes = await fetch('/api/auth/user', { credentials: 'include' });
         const authData = await authRes.json();
         if (!authData.isLoggedIn) {
@@ -611,7 +672,6 @@
         if (conversations.length === 0) {
             await newConversation();
         } else {
-            // load most recent conversation
             const mostRecent = conversations[0];
             if (mostRecent) await loadConversation(mostRecent.id);
             else await newConversation();

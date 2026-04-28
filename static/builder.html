@@ -800,17 +800,20 @@
                 // Work Experience
                 const expSection = document.getElementById('section-experience');
                 const expDiv = document.getElementById('out-experience-list');
-                if (experiences.length === 0 || experiences.every(e => !e.title && !e.company)) {
+                const hasValidExp = experiences.some(e => e.title || e.company || (e.description && e.description.trim()));
+                if (!hasValidExp) {
                     expSection.style.display = 'none';
                 } else {
                     expSection.style.display = 'block';
                     expDiv.innerHTML = experiences.map(exp => {
-                        if (!exp.title && !exp.company) return '';
-                        let html = `<div class="preview-entry"><h4>${escapeHtml(exp.title)}${exp.company ? ` at ${escapeHtml(exp.company)}` : ''}</h4>`;
+                        let html = `<div class="preview-entry">`;
+                        if (exp.title || exp.company) {
+                            html += `<h4>${escapeHtml(exp.title)}${exp.company ? ` at ${escapeHtml(exp.company)}` : ''}</h4>`;
+                        }
                         if (exp.startDate || exp.endDate) {
                             html += `<div class="subtitle">${escapeHtml(exp.startDate)} - ${escapeHtml(exp.endDate)}</div>`;
                         }
-                        if (exp.description.trim()) {
+                        if (exp.description && exp.description.trim()) {
                             const bullets = exp.description.split('\n').filter(line => line.trim());
                             html += `<ul>${bullets.map(b => `<li>${escapeHtml(b.replace(/^•\s*/, ''))}</li>`).join('')}</ul>`;
                         }
@@ -819,45 +822,51 @@
                     }).join('');
                 }
 
-                // Education
-                const eduSection = document.getElementById('section-education');
-                const eduDiv = document.getElementById('out-education-list');
-                if (educations.length === 0 || educations.every(e => !e.degree && !e.institution)) {
-                    eduSection.style.display = 'none';
-                } else {
-                    eduSection.style.display = 'block';
-                    eduDiv.innerHTML = educations.map(edu => {
-                        if (!edu.degree && !edu.institution) return '';
-                        let html = `<div class="preview-entry"><h4>${escapeHtml(edu.degree)}${edu.institution ? `, ${escapeHtml(edu.institution)}` : ''}</h4>`;
-                        if (edu.startDate || edu.endDate) {
-                            html += `<div class="subtitle">${escapeHtml(edu.startDate)} - ${escapeHtml(edu.endDate)}</div>`;
-                        }
-                        if (edu.description.trim()) {
-                            html += `<p>${escapeHtml(edu.description)}</p>`;
-                        }
-                        html += `</div>`;
-                        return html;
-                    }).join('');
-                }
+                            // Education
+            const eduSection = document.getElementById('section-education');
+            const eduDiv = document.getElementById('out-education-list');
+            const hasValidEdu = educations.some(e => e.degree || e.institution || (e.description && e.description.trim()));
+            if (!hasValidEdu) {
+                eduSection.style.display = 'none';
+            } else {
+                eduSection.style.display = 'block';
+                eduDiv.innerHTML = educations.map(edu => {
+                    let html = `<div class="preview-entry">`;
+                    if (edu.degree || edu.institution) {
+                        html += `<h4>${escapeHtml(edu.degree)}${edu.institution ? `, ${escapeHtml(edu.institution)}` : ''}</h4>`;
+                    }
+                    if (edu.startDate || edu.endDate) {
+                        html += `<div class="subtitle">${escapeHtml(edu.startDate)} - ${escapeHtml(edu.endDate)}</div>`;
+                    }
+                    if (edu.description && edu.description.trim()) {
+                        html += `<p>${escapeHtml(edu.description)}</p>`;
+                    }
+                    html += `</div>`;
+                    return html;
+                }).join('');
+            }
 
-                // Projects
-                const projSection = document.getElementById('section-projects');
-                const projDiv = document.getElementById('out-projects-list');
-                if (projects.length === 0 || projects.every(p => !p.name && !p.description)) {
-                    projSection.style.display = 'none';
-                } else {
-                    projSection.style.display = 'block';
-                    projDiv.innerHTML = projects.map(proj => {
-                        if (!proj.name && !proj.description) return '';
-                        let html = `<div class="preview-entry"><h4>${escapeHtml(proj.name) || 'Untitled Project'}</h4>`;
-                        if (proj.description.trim()) {
-                            const bullets = proj.description.split('\n').filter(line => line.trim());
-                            html += `<ul>${bullets.map(b => `<li>${escapeHtml(b.replace(/^•\s*/, ''))}</li>`).join('')}</ul>`;
-                        }
-                        html += `</div>`;
-                        return html;
-                    }).join('');
+                        // Projects
+        const projSection = document.getElementById('section-projects');
+        const projDiv = document.getElementById('out-projects-list');
+        const hasValidProj = projects.some(p => p.name || (p.description && p.description.trim()));
+        if (!hasValidProj) {
+            projSection.style.display = 'none';
+        } else {
+            projSection.style.display = 'block';
+            projDiv.innerHTML = projects.map(proj => {
+                let html = `<div class="preview-entry">`;
+                if (proj.name) {
+                    html += `<h4>${escapeHtml(proj.name)}</h4>`;
                 }
+                if (proj.description && proj.description.trim()) {
+                    const bullets = proj.description.split('\n').filter(line => line.trim());
+                    html += `<ul>${bullets.map(b => `<li>${escapeHtml(b.replace(/^•\s*/, ''))}</li>`).join('')}</ul>`;
+                }
+                html += `</div>`;
+                return html;
+            }).join('');
+        }
 
                 calculateATSScore();
             }
@@ -925,7 +934,7 @@
                     // Work Experience (plain text -> single entry)
                     if (user.experience && user.experience.trim()) {
                         experiences = [{
-                            title: 'Work Experience',
+                            title: '',
                             company: '',
                             startDate: '',
                             endDate: '',
@@ -940,7 +949,7 @@
                     // Education (plain text -> single entry)
                     if (user.education && user.education.trim()) {
                         educations = [{
-                            degree: 'Education',
+                            degree: '',
                             institution: '',
                             startDate: '',
                             endDate: '',
@@ -955,7 +964,7 @@
                     // Projects (plain text -> single entry)
                     if (user.projects && user.projects.trim()) {
                         projects = [{
-                            name: 'Project',
+                            name: '',
                             description: user.projects
                         }];
                     } else {
