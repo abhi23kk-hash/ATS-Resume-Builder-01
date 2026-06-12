@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 7860
 
 # Run with gunicorn (production server)
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:7860", "app:app"]
+CMD ["gunicorn", "-w", "1", "-b", "0.0.0.0:7860", "app:app"]
